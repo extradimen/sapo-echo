@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the repository release."
+title: "SAPO-ECHO: Failure-Semantic Portfolio Optimization for Resilient Multi-Agent Path Finding"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Jinpeng
+    orcid: "https://orcid.org/0009-0003-7324-2211"
+repository-code: "https://github.com/extradimen/sapo-echo"
+license: Apache-2.0
+version: 1.0.0
+date-released: 2026-09-05
+keywords:
+  - multi-agent path finding
+  - multiobjective optimization
+  - portfolio selection
+  - resilience
+  - failure semantics

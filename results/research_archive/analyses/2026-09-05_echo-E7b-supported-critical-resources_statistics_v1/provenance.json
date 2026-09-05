@@ -1,0 +1,11 @@
+{
+  "bootstrap_draws": 20000,
+  "input": "research_archive/analyses/2026-09-05_echo-E7b-supported-critical-resources_v1/selector_unit_collapsed.csv",
+  "input_archive_manifest": "research_archive/analyses/2026-09-05_echo-E7b-supported-critical-resources_v1/SHA256SUMS",
+  "input_archive_manifest_sha256": "c51c338bb30e5d105ae361f52d1ae983a6c27e6ff6bfc44071e443ee303c533d",
+  "input_sha256": "d02b30e9f50da14072d0888ccc2a0ff8bec3a882e76b0477bdbd03ffefcf43b4",
+  "protocol": "research_archive/plans/2026-09-05_echo_E7b_supported-critical-resources_protocol_v1.md",
+  "schema": "echo-e7b-supported-resource-exploratory-statistics-v1",
+  "script": "analyze_echo_e7b_statistics.py",
+  "script_sha256": "38e7215d818110f38748ba3c176a65d347640b11876810120622e738df199f35"
+}

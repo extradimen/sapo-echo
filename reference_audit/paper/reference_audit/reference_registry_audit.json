@@ -1,0 +1,968 @@
+{
+  "checked_utc": "2026-09-05T08:49:10.458726+00:00",
+  "records": [
+    {
+      "arxiv": null,
+      "citation": "R. Stern et al., \"Multi-agent pathfinding: Definitions, variants, and benchmarks,\" in Proc. Int. Symp. Combinatorial Search, vol. 10, no. 1, pp. 151-158, 2019, doi: 10.1609/socs.v10i1.18510.",
+      "doi": "10.1609/socs.v10i1.18510",
+      "key": "ref1",
+      "metadata": {
+        "authors": [
+          "Roni Stern",
+          "Nathan Sturtevant",
+          "Ariel Felner",
+          "Sven Koenig",
+          "Hang Ma",
+          "Thayne Walker",
+          "Jiaoyang Li",
+          "Dor Atzmon",
+          "Liron Cohen",
+          "T. K. Kumar",
+          "Roman Bart\u00e1k",
+          "Eli Boyarski"
+        ],
+        "container_title": "Proceedings of the International Symposium on Combinatorial Search",
+        "doi": "10.1609/socs.v10i1.18510",
+        "issue": "1",
+        "page": "151-158",
+        "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+        "title": "Multi-Agent Pathfinding: Definitions, Variants, and Benchmarks",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1609/socs.v10i1.18510",
+        "volume": "10",
+        "year": 2021
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Multi-agent pathfinding: Definitions, variants, and benchmarks,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "G. Sharon, R. Stern, A. Felner, and N. R. Sturtevant, \"Conflict-based search for optimal multi-agent pathfinding,\" Artif. Intell., vol. 219, pp. 40-66, 2015, doi: 10.1016/j.artint.2014.11.006.",
+      "doi": "10.1016/j.artint.2014.11.006",
+      "key": "ref2",
+      "metadata": {
+        "authors": [
+          "Guni Sharon",
+          "Roni Stern",
+          "Ariel Felner",
+          "Nathan R. Sturtevant"
+        ],
+        "container_title": "Artificial Intelligence",
+        "doi": "10.1016/j.artint.2014.11.006",
+        "issue": null,
+        "page": "40-66",
+        "publisher": "Elsevier BV",
+        "title": "Conflict-based search for optimal multi-agent pathfinding",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.artint.2014.11.006",
+        "volume": "219",
+        "year": 2015
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Conflict-based search for optimal multi-agent pathfinding,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "K. Chen, Q. Qu, F. Zhu, Z. Yi, and W. Tang, \"CPLNS: Cooperative parallel large neighborhood search for large-scale multi-agent path finding,\" IEEE Trans. Parallel Distrib. Syst., vol. 35, no. 11, pp. 2069-2086, 2024, doi: 10.1109/TPDS.2024.3408030.",
+      "doi": "10.1109/TPDS.2024.3408030",
+      "key": "ref3",
+      "metadata": {
+        "authors": [
+          "Kai Chen",
+          "Qingjun Qu",
+          "Feng Zhu",
+          "Zhengming Yi",
+          "Wenjie Tang"
+        ],
+        "container_title": "IEEE Transactions on Parallel and Distributed Systems",
+        "doi": "10.1109/tpds.2024.3408030",
+        "issue": "11",
+        "page": "2069-2086",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "CPLNS: Cooperative Parallel Large Neighborhood Search for Large-Scale Multi-Agent Path Finding",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/tpds.2024.3408030",
+        "volume": "35",
+        "year": 2024
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "CPLNS: Cooperative parallel large neighborhood search for large-scale multi-agent path finding,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "Z. Ren, S. Rathinam, and H. Choset, \"CBSS: A new approach for multiagent combinatorial path finding,\" IEEE Trans. Robot., vol. 39, no. 4, pp. 2669-2683, 2023, doi: 10.1109/TRO.2023.3266993.",
+      "doi": "10.1109/TRO.2023.3266993",
+      "key": "ref4",
+      "metadata": {
+        "authors": [
+          "Zhongqiang Ren",
+          "Sivakumar Rathinam",
+          "Howie Choset"
+        ],
+        "container_title": "IEEE Transactions on Robotics",
+        "doi": "10.1109/tro.2023.3266993",
+        "issue": "4",
+        "page": "2669-2683",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "CBSS: A New Approach for Multiagent Combinatorial Path Finding",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/tro.2023.3266993",
+        "volume": "39",
+        "year": 2023
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "CBSS: A new approach for multiagent combinatorial path finding,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "S. Song, K.-I. Na, and W. Yu, \"Anytime lifelong multi-agent pathfinding in topological maps,\" IEEE Access, vol. 11, pp. 20365-20380, 2023, doi: 10.1109/ACCESS.2023.3249471.",
+      "doi": "10.1109/ACCESS.2023.3249471",
+      "key": "ref5",
+      "metadata": {
+        "authors": [
+          "Soohwan Song",
+          "Ki-In Na",
+          "Wonpil Yu"
+        ],
+        "container_title": "IEEE Access",
+        "doi": "10.1109/access.2023.3249471",
+        "issue": null,
+        "page": "20365-20380",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "Anytime Lifelong Multi-Agent Pathfinding in Topological Maps",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/access.2023.3249471",
+        "volume": "11",
+        "year": 2023
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Anytime lifelong multi-agent pathfinding in topological maps,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "A. Maoudj, S. N. Mekid, and A. L. Christensen, \"Lifelong MAPF for shipment preparation in stochastic warehouses,\" in Proc. IEEE CASE, 2024, pp. 1006-1011, doi: 10.1109/CASE59546.2024.10711327.",
+      "doi": "10.1109/CASE59546.2024.10711327",
+      "key": "ref6",
+      "metadata": {
+        "authors": [
+          "Abderraouf Maoudj",
+          "Samir Nadir Mekid",
+          "Anders Lyhne Christensen"
+        ],
+        "container_title": "2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)",
+        "doi": "10.1109/case59546.2024.10711327",
+        "issue": null,
+        "page": "1006-1011",
+        "publisher": "IEEE",
+        "title": "Lifelong MAPF for Shipment Preparation in Stochastic Warehouses",
+        "type": "proceedings-article",
+        "url": "https://doi.org/10.1109/case59546.2024.10711327",
+        "volume": null,
+        "year": 2024
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Lifelong MAPF for shipment preparation in stochastic warehouses,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "A. Bolu and O. Korcak, \"Adaptive task planning for multi-robot smart warehouse,\" IEEE Access, vol. 9, pp. 27346-27358, 2021, doi: 10.1109/ACCESS.2021.3058190.",
+      "doi": "10.1109/ACCESS.2021.3058190",
+      "key": "ref7",
+      "metadata": {
+        "authors": [
+          "Ali Bolu",
+          "Omer Korcak"
+        ],
+        "container_title": "IEEE Access",
+        "doi": "10.1109/access.2021.3058190",
+        "issue": null,
+        "page": "27346-27358",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "Adaptive Task Planning for Multi-Robot Smart Warehouse",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/access.2021.3058190",
+        "volume": "9",
+        "year": 2021
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Adaptive task planning for multi-robot smart warehouse,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "S. Wang et al., \"Cooperative task allocation for multi-robot systems based on multi-objective ant colony system,\" IEEE Access, vol. 10, pp. 56375-56387, 2022, doi: 10.1109/ACCESS.2022.3165198.",
+      "doi": "10.1109/ACCESS.2022.3165198",
+      "key": "ref8",
+      "metadata": {
+        "authors": [
+          "Shengli Wang",
+          "Youjiang Liu",
+          "Yongtao Qiu",
+          "Qi Zhang",
+          "Feixiang Huo",
+          "Yafan Huangfu",
+          "Chun Yang",
+          "Jie Zhou"
+        ],
+        "container_title": "IEEE Access",
+        "doi": "10.1109/access.2022.3165198",
+        "issue": null,
+        "page": "56375-56387",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "Cooperative Task Allocation for Multi-Robot Systems Based on Multi-Objective Ant Colony System",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/access.2022.3165198",
+        "volume": "10",
+        "year": 2022
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Cooperative task allocation for multi-robot systems based on multi-objective ant colony system,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": "2101.03805",
+      "citation": "Z. Ren, S. Rathinam, and H. Choset, \"A conflict-based search framework for multi-objective multi-agent path finding,\" arXiv:2101.03805, 2021.",
+      "doi": null,
+      "key": "ref9",
+      "metadata": {
+        "authors": [
+          "Zhongqiang Ren",
+          "Sivakumar Rathinam",
+          "Howie Choset"
+        ],
+        "id": "http://arxiv.org/abs/2101.03805v5",
+        "published": "2021-01-11T10:42:38Z",
+        "title": "A Conflict-Based Search Framework for Multi-Objective Multi-Agent Path Finding"
+      },
+      "registry": "arXiv API",
+      "status": "verified",
+      "title": "A conflict-based search framework for multi-objective multi-agent path finding,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": "2108.00745",
+      "citation": "Z. Ren, S. Rathinam, M. Likhachev, and H. Choset, \"Multi-objective conflict-based search using safe-interval path planning,\" arXiv:2108.00745, 2021.",
+      "doi": null,
+      "key": "ref10",
+      "metadata": {
+        "authors": [
+          "Zhongqiang Ren",
+          "Sivakumar Rathinam",
+          "Maxim Likhachev",
+          "Howie Choset"
+        ],
+        "id": "http://arxiv.org/abs/2108.00745v3",
+        "published": "2021-08-02T09:42:08Z",
+        "title": "Multi-objective Conflict-based Search Using Safe-interval Path Planning"
+      },
+      "registry": "arXiv API",
+      "status": "verified",
+      "title": "Multi-objective conflict-based search using safe-interval path planning,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "Z. Ren et al., \"Binary branching multi-objective conflict-based search for multi-agent path finding,\" in Proc. ICAPS, vol. 33, no. 1, pp. 361-369, 2023, doi: 10.1609/icaps.v33i1.27214.",
+      "doi": "10.1609/icaps.v33i1.27214",
+      "key": "ref11",
+      "metadata": {
+        "authors": [
+          "Zhongqiang Ren",
+          "Jiaoyang Li",
+          "Han Zhang",
+          "Sven Koenig",
+          "Sivakumar Rathinam",
+          "Howie Choset"
+        ],
+        "container_title": "Proceedings of the International Conference on Automated Planning and Scheduling",
+        "doi": "10.1609/icaps.v33i1.27214",
+        "issue": "1",
+        "page": "361-369",
+        "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+        "title": "Binary Branching Multi-Objective Conflict-Based Search for Multi-Agent Path Finding",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1609/icaps.v33i1.27214",
+        "volume": "33",
+        "year": 2023
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Binary branching multi-objective conflict-based search for multi-agent path finding,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": "2211.12885",
+      "citation": "C. Ge, H. Zhang, J. Li, and S. Koenig, \"Cost splitting for multi-objective conflict-based search,\" arXiv:2211.12885, 2022.",
+      "doi": null,
+      "key": "ref12",
+      "metadata": {
+        "authors": [
+          "Cheng Ge",
+          "Han Zhang",
+          "Jiaoyang Li",
+          "Sven Koenig"
+        ],
+        "id": "http://arxiv.org/abs/2211.12885v1",
+        "published": "2022-11-23T11:44:20Z",
+        "title": "Cost Splitting for Multi-Objective Conflict-Based Search"
+      },
+      "registry": "arXiv API",
+      "status": "verified",
+      "title": "Cost splitting for multi-objective conflict-based search,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "D. Atzmon, R. Stern, A. Felner, G. Wagner, R. Bartak, and N.-F. Zhou, \"Robust multi-agent path finding,\" in Proc. Int. Symp. Combinatorial Search, vol. 9, no. 1, pp. 2-9, 2021, doi: 10.1609/socs.v9i1.18445.",
+      "doi": "10.1609/socs.v9i1.18445",
+      "key": "ref13",
+      "metadata": {
+        "authors": [
+          "Dor Atzmon",
+          "Roni Stern",
+          "Ariel Felner",
+          "Glenn Wagner",
+          "Roman Bartak",
+          "Neng-Fa Zhou"
+        ],
+        "container_title": "Proceedings of the International Symposium on Combinatorial Search",
+        "doi": "10.1609/socs.v9i1.18445",
+        "issue": "1",
+        "page": "2-9",
+        "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+        "title": "Robust Multi-Agent Path Finding",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1609/socs.v9i1.18445",
+        "volume": "9",
+        "year": 2021
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Robust multi-agent path finding,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "M. Nekvinda, R. Bartak, and M. Kalech, \"Contingent planning for robust multi-agent path finding,\" in Proc. Int. Symp. Combinatorial Search, vol. 12, no. 1, pp. 185-187, 2021, doi: 10.1609/socs.v12i1.18578.",
+      "doi": "10.1609/socs.v12i1.18578",
+      "key": "ref14",
+      "metadata": {
+        "authors": [
+          "Michal Nekvinda",
+          "Roman Bart\u00e1k",
+          "Meir Kalech"
+        ],
+        "container_title": "Proceedings of the International Symposium on Combinatorial Search",
+        "doi": "10.1609/socs.v12i1.18578",
+        "issue": "1",
+        "page": "185-187",
+        "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+        "title": "Contingent Planning for Robust Multi-Agent Path Finding",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1609/socs.v12i1.18578",
+        "volume": "12",
+        "year": 2021
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Contingent planning for robust multi-agent path finding,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "B. Shofer, G. Shani, and R. Stern, \"Multi agent path finding under obstacle uncertainty,\" in Proc. ICAPS, vol. 33, no. 1, pp. 402-410, 2023, doi: 10.1609/icaps.v33i1.27219.",
+      "doi": "10.1609/icaps.v33i1.27219",
+      "key": "ref15",
+      "metadata": {
+        "authors": [
+          "Bar Shofer",
+          "Guy Shani",
+          "Roni Stern"
+        ],
+        "container_title": "Proceedings of the International Conference on Automated Planning and Scheduling",
+        "doi": "10.1609/icaps.v33i1.27219",
+        "issue": "1",
+        "page": "402-410",
+        "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+        "title": "Multi Agent Path Finding under Obstacle Uncertainty",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1609/icaps.v33i1.27219",
+        "volume": "33",
+        "year": 2023
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Multi agent path finding under obstacle uncertainty,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "K. Okumura and S. Tixeuil, \"Fault-tolerant offline multi-agent path planning,\" in Proc. AAAI Conf. Artif. Intell., vol. 37, no. 10, pp. 11647-11654, 2023, doi: 10.1609/aaai.v37i10.26376.",
+      "doi": "10.1609/aaai.v37i10.26376",
+      "key": "ref16",
+      "metadata": {
+        "authors": [
+          "Keisuke Okumura",
+          "S\u00e9bastien Tixeuil"
+        ],
+        "container_title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "doi": "10.1609/aaai.v37i10.26376",
+        "issue": "10",
+        "page": "11647-11654",
+        "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+        "title": "Fault-Tolerant Offline Multi-Agent Path Planning",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1609/aaai.v37i10.26376",
+        "volume": "37",
+        "year": 2023
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Fault-tolerant offline multi-agent path planning,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "D. Atzmon, A. Felner, and R. Stern, \"Probabilistic robust multi-agent path finding,\" in Proc. Int. Symp. Combinatorial Search, vol. 10, no. 1, pp. 162-163, 2019, doi: 10.1609/socs.v10i1.18471.",
+      "doi": "10.1609/socs.v10i1.18471",
+      "key": "ref17",
+      "metadata": {
+        "authors": [
+          "Dor Atzmon",
+          "Ariel Felner",
+          "Roni Stern"
+        ],
+        "container_title": "Proceedings of the International Symposium on Combinatorial Search",
+        "doi": "10.1609/socs.v10i1.18471",
+        "issue": "1",
+        "page": "162-163",
+        "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+        "title": "Probabilistic Robust Multi-Agent Path Finding",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1609/socs.v10i1.18471",
+        "volume": "10",
+        "year": 2021
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Probabilistic robust multi-agent path finding,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "L. Huang, Y. Ding, M. Zhou, Y. Jin, and K. Hao, \"Multiple-solution optimization strategy for multirobot task allocation,\" IEEE Trans. Syst., Man, Cybern., Syst., vol. 50, no. 11, pp. 4283-4294, 2020, doi: 10.1109/TSMC.2018.2847608.",
+      "doi": "10.1109/TSMC.2018.2847608",
+      "key": "ref18",
+      "metadata": {
+        "authors": [
+          "Li Huang",
+          "Yongsheng Ding",
+          "MengChu Zhou",
+          "Yaoch Jin",
+          "Kuangrong Hao"
+        ],
+        "container_title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+        "doi": "10.1109/tsmc.2018.2847608",
+        "issue": "11",
+        "page": "4283-4294",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "Multiple-Solution Optimization Strategy for Multirobot Task Allocation",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/tsmc.2018.2847608",
+        "volume": "50",
+        "year": 2020
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Multiple-solution optimization strategy for multirobot task allocation,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "Z. Miao, W. Huang, Q. Jiang, and Q. Fan, \"A novel multimodal multi-objective optimization algorithm for multi-robot task allocation,\" Trans. Inst. Meas. Control, vol. 47, no. 12, pp. 2564-2575, 2025, doi: 10.1177/01423312231183588.",
+      "doi": "10.1177/01423312231183588",
+      "key": "ref19",
+      "metadata": {
+        "authors": [
+          "Zhenhua Miao",
+          "Wentao Huang",
+          "Qingchao Jiang",
+          "Qinqin Fan"
+        ],
+        "container_title": "Transactions of the Institute of Measurement and Control",
+        "doi": "10.1177/01423312231183588",
+        "issue": "12",
+        "page": "2564-2575",
+        "publisher": "SAGE Publications",
+        "title": "A novel multimodal multi-objective optimization algorithm for multi-robot task allocation",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1177/01423312231183588",
+        "volume": "47",
+        "year": 2025
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "A novel multimodal multi-objective optimization algorithm for multi-robot task allocation,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "X. Yao, W. Li, X. Pan, and R. Wang, \"Multimodal multi-objective evolutionary algorithm for multiple path planning,\" Comput. Ind. Eng., vol. 169, Art. no. 108145, 2022, doi: 10.1016/j.cie.2022.108145.",
+      "doi": "10.1016/j.cie.2022.108145",
+      "key": "ref20",
+      "metadata": {
+        "authors": [
+          "Xingyi Yao",
+          "Wenhua Li",
+          "Xiaogang Pan",
+          "Rui Wang"
+        ],
+        "container_title": "Computers &amp; Industrial Engineering",
+        "doi": "10.1016/j.cie.2022.108145",
+        "issue": null,
+        "page": "108145",
+        "publisher": "Elsevier BV",
+        "title": "Multimodal multi-objective evolutionary algorithm for multiple path planning",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.cie.2022.108145",
+        "volume": "169",
+        "year": 2022
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Multimodal multi-objective evolutionary algorithm for multiple path planning,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "Z. Xu, K. Zhang, J. Del Ser, M. Li, X. Xu, J. He, and N. Wu, \"Multi-objective optimization for multimodal multi-objective multi-point shortest path problem considering unforeseeable road eventualities,\" IEEE Trans. Intell. Transp. Syst., vol. 26, no. 6, pp. 8622-8640, 2025, doi: 10.1109/TITS.2025.3556410.",
+      "doi": "10.1109/TITS.2025.3556410",
+      "key": "ref21",
+      "metadata": {
+        "authors": [
+          "Zhiwei Xu",
+          "Kai Zhang",
+          "Javier Del Ser",
+          "Miqing Li",
+          "Xin Xu",
+          "Juanjuan He",
+          "Ni Wu"
+        ],
+        "container_title": "IEEE Transactions on Intelligent Transportation Systems",
+        "doi": "10.1109/tits.2025.3556410",
+        "issue": "6",
+        "page": "8622-8640",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "Multi-Objective Optimization for Multimodal Multi-Objective Multi-Point Shortest Path Problem Considering Unforeseeable Road Eventualities",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/tits.2025.3556410",
+        "volume": "26",
+        "year": 2025
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Multi-objective optimization for multimodal multi-objective multi-point shortest path problem considering unforeseeable road eventualities,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "Z. Miao, W. Huang, Y. Zhang, and Q. Fan, \"Multi-robot task allocation using multimodal multi-objective evolutionary algorithm based on deep reinforcement learning,\" J. Shanghai Jiaotong Univ. Sci., vol. 29, no. 3, pp. 377-387, 2024, doi: 10.1007/s12204-023-2679-7.",
+      "doi": "10.1007/s12204-023-2679-7",
+      "key": "ref22",
+      "metadata": {
+        "authors": [
+          "Zhenhua Miao",
+          "Wentao Huang",
+          "Yilian Zhang",
+          "Qinqin Fan"
+        ],
+        "container_title": "Journal of Shanghai Jiaotong University (Science)",
+        "doi": "10.1007/s12204-023-2679-7",
+        "issue": "3",
+        "page": "377-387",
+        "publisher": "Springer Science and Business Media LLC",
+        "title": "Multi-Robot Task Allocation Using Multimodal Multi-Objective Evolutionary Algorithm Based on Deep Reinforcement Learning",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1007/s12204-023-2679-7",
+        "volume": "29",
+        "year": 2024
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Multi-robot task allocation using multimodal multi-objective evolutionary algorithm based on deep reinforcement learning,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "S. Bardugo, D. Koyfman, and D. Atzmon, \"Finding all optimal solutions in multi-agent path finding,\" in Proc. Int. Symp. Combinatorial Search, vol. 18, pp. 20-28, 2025, doi: 10.1609/socs.v18i1.35972.",
+      "doi": "10.1609/socs.v18i1.35972",
+      "key": "ref23",
+      "metadata": {
+        "authors": [
+          "Shahar Bardugo",
+          "Daniel Koyfman",
+          "Dor Atzmon"
+        ],
+        "container_title": "Proceedings of the International Symposium on Combinatorial Search",
+        "doi": "10.1609/socs.v18i1.35972",
+        "issue": null,
+        "page": "20-28",
+        "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+        "title": "Finding All Optimal Solutions in Multi-Agent Path Finding",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1609/socs.v18i1.35972",
+        "volume": "18",
+        "year": 2025
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Finding all optimal solutions in multi-agent path finding,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "J. Mahadeokar and S. Saxena, \"Faster replacement paths algorithms in case of edge or node failure for undirected, positive integer weighted graphs,\" J. Discrete Algorithms, vol. 23, pp. 54-62, 2013, doi: 10.1016/j.jda.2013.08.001.",
+      "doi": "10.1016/j.jda.2013.08.001",
+      "key": "ref24",
+      "metadata": {
+        "authors": [
+          "Jay Mahadeokar",
+          "Sanjeev Saxena"
+        ],
+        "container_title": "Journal of Discrete Algorithms",
+        "doi": "10.1016/j.jda.2013.08.001",
+        "issue": null,
+        "page": "54-62",
+        "publisher": "Elsevier BV",
+        "title": "Faster replacement paths algorithms in case of edge or node failure for undirected, positive integer weighted graphs",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.jda.2013.08.001",
+        "volume": "23",
+        "year": 2013
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Faster replacement paths algorithms in case of edge or node failure for undirected, positive integer weighted graphs,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "K. Deb, A. Pratap, S. Agarwal, and T. Meyarivan, \"A fast and elitist multiobjective genetic algorithm: NSGA-II,\" IEEE Trans. Evol. Comput., vol. 6, no. 2, pp. 182-197, 2002, doi: 10.1109/4235.996017.",
+      "doi": "10.1109/4235.996017",
+      "key": "ref25",
+      "metadata": {
+        "authors": [
+          "K. Deb",
+          "A. Pratap",
+          "S. Agarwal",
+          "T. Meyarivan"
+        ],
+        "container_title": "IEEE Transactions on Evolutionary Computation",
+        "doi": "10.1109/4235.996017",
+        "issue": "2",
+        "page": "182-197",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/4235.996017",
+        "volume": "6",
+        "year": 2002
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "A fast and elitist multiobjective genetic algorithm: NSGA-II,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "K. Deb and H. Jain, \"An evolutionary many-objective optimization algorithm using reference-point-based nondominated sorting approach, part I: Solving problems with box constraints,\" IEEE Trans. Evol. Comput., vol. 18, no. 4, pp. 577-601, 2014, doi: 10.1109/TEVC.2013.2281535.",
+      "doi": "10.1109/TEVC.2013.2281535",
+      "key": "ref26",
+      "metadata": {
+        "authors": [
+          "Kalyanmoy Deb",
+          "Himanshu Jain"
+        ],
+        "container_title": "IEEE Transactions on Evolutionary Computation",
+        "doi": "10.1109/tevc.2013.2281535",
+        "issue": "4",
+        "page": "577-601",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "An Evolutionary Many-Objective Optimization Algorithm Using Reference-Point-Based Nondominated Sorting Approach, Part I: Solving Problems With Box Constraints",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/tevc.2013.2281535",
+        "volume": "18",
+        "year": 2014
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "An evolutionary many-objective optimization algorithm using reference-point-based nondominated sorting approach, part I: Solving problems with box constraints,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "M. Li, \"Is our archiving reliable? Multiobjective archiving methods on `simple' artificial input sequences,\" ACM Trans. Evol. Learn. Optim., vol. 1, no. 3, pp. 1-19, 2021, doi: 10.1145/3465335.",
+      "doi": "10.1145/3465335",
+      "key": "ref27",
+      "metadata": {
+        "authors": [
+          "Miqing Li"
+        ],
+        "container_title": "ACM Transactions on Evolutionary Learning and Optimization",
+        "doi": "10.1145/3465335",
+        "issue": "3",
+        "page": "1-19",
+        "publisher": "Association for Computing Machinery (ACM)",
+        "title": "Is Our Archiving Reliable? Multiobjective Archiving Methods on \u201cSimple\u201d Artificial Input Sequences",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1145/3465335",
+        "volume": "1",
+        "year": 2021
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Is our archiving reliable? Multiobjective archiving methods on `simple' artificial input sequences,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "K. Shang, T. Shu, H. Ishibuchi, Y. Nan, and L. M. Pang, \"Benchmarking large-scale subset selection in evolutionary multi-objective optimization,\" Inf. Sci., vol. 622, pp. 755-770, 2023, doi: 10.1016/j.ins.2022.11.155.",
+      "doi": "10.1016/j.ins.2022.11.155",
+      "key": "ref28",
+      "metadata": {
+        "authors": [
+          "Ke Shang",
+          "Tianye Shu",
+          "Hisao Ishibuchi",
+          "Yang Nan",
+          "Lie Meng Pang"
+        ],
+        "container_title": "Information Sciences",
+        "doi": "10.1016/j.ins.2022.11.155",
+        "issue": null,
+        "page": "755-770",
+        "publisher": "Elsevier BV",
+        "title": "Benchmarking large-scale subset selection in evolutionary multi-objective optimization",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.ins.2022.11.155",
+        "volume": "622",
+        "year": 2023
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Benchmarking large-scale subset selection in evolutionary multi-objective optimization,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "R. Tanabe, H. Ishibuchi, and A. Oyama, \"Benchmarking multi- and many-objective evolutionary algorithms under two optimization scenarios,\" IEEE Access, vol. 5, pp. 19597-19619, 2017, doi: 10.1109/ACCESS.2017.2751071.",
+      "doi": "10.1109/ACCESS.2017.2751071",
+      "key": "ref29",
+      "metadata": {
+        "authors": [
+          "Ryoji Tanabe",
+          "Hisao Ishibuchi",
+          "Akira Oyama"
+        ],
+        "container_title": "IEEE Access",
+        "doi": "10.1109/access.2017.2751071",
+        "issue": null,
+        "page": "19597-19619",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "Benchmarking Multi- and Many-Objective Evolutionary Algorithms Under Two Optimization Scenarios",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/access.2017.2751071",
+        "volume": "5",
+        "year": 2017
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Benchmarking multi- and many-objective evolutionary algorithms under two optimization scenarios,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "G. L. Nemhauser, L. A. Wolsey, and M. L. Fisher, \"An analysis of approximations for maximizing submodular set functions-I,\" Math. Program., vol. 14, no. 1, pp. 265-294, 1978, doi: 10.1007/BF01588971.",
+      "doi": "10.1007/BF01588971",
+      "key": "ref30",
+      "metadata": {
+        "authors": [
+          "G. L. Nemhauser",
+          "L. A. Wolsey",
+          "M. L. Fisher"
+        ],
+        "container_title": "Mathematical Programming",
+        "doi": "10.1007/bf01588971",
+        "issue": "1",
+        "page": "265-294",
+        "publisher": "Springer Science and Business Media LLC",
+        "title": "An analysis of approximations for maximizing submodular set functions\u2014I",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1007/bf01588971",
+        "volume": "14",
+        "year": 1978
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "An analysis of approximations for maximizing submodular set functions-I,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "J. Blank and K. Deb, \"Pymoo: Multi-objective optimization in Python,\" IEEE Access, vol. 8, pp. 89497-89509, 2020, doi: 10.1109/ACCESS.2020.2990567.",
+      "doi": "10.1109/ACCESS.2020.2990567",
+      "key": "ref31",
+      "metadata": {
+        "authors": [
+          "Julian Blank",
+          "Kalyanmoy Deb"
+        ],
+        "container_title": "IEEE Access",
+        "doi": "10.1109/access.2020.2990567",
+        "issue": null,
+        "page": "89497-89509",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "Pymoo: Multi-Objective Optimization in Python",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/access.2020.2990567",
+        "volume": "8",
+        "year": 2020
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Pymoo: Multi-objective optimization in Python,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "N. R. Sturtevant, \"Benchmarks for grid-based pathfinding,\" IEEE Trans. Comput. Intell. AI Games, vol. 4, no. 2, pp. 144-148, 2012, doi: 10.1109/TCIAIG.2012.2197681.",
+      "doi": "10.1109/TCIAIG.2012.2197681",
+      "key": "ref32",
+      "metadata": {
+        "authors": [
+          "N. R. Sturtevant"
+        ],
+        "container_title": "IEEE Transactions on Computational Intelligence and AI in Games",
+        "doi": "10.1109/tciaig.2012.2197681",
+        "issue": "2",
+        "page": "144-148",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "Benchmarks for Grid-Based Pathfinding",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/tciaig.2012.2197681",
+        "volume": "4",
+        "year": 2012
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Benchmarks for grid-based pathfinding,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "Q. Liu, X. Liu, J. Wu, and Y. Li, \"An improved NSGA-III algorithm using genetic K-means clustering algorithm,\" IEEE Access, vol. 7, pp. 185239-185249, 2019, doi: 10.1109/ACCESS.2019.2960531.",
+      "doi": "10.1109/ACCESS.2019.2960531",
+      "key": "ref33",
+      "metadata": {
+        "authors": [
+          "Qingguo Liu",
+          "Xinxue Liu",
+          "Jian Wu",
+          "Yaxiong Li"
+        ],
+        "container_title": "IEEE Access",
+        "doi": "10.1109/access.2019.2960531",
+        "issue": null,
+        "page": "185239-185249",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "An Improved NSGA-III Algorithm Using Genetic K-Means Clustering Algorithm",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/access.2019.2960531",
+        "volume": "7",
+        "year": 2019
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "An improved NSGA-III algorithm using genetic K-means clustering algorithm,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "A. M. Usman, U. K. Yusof, and S. Naim, \"Filter-based multi-objective feature selection using NSGA III and cuckoo optimization algorithm,\" IEEE Access, vol. 8, pp. 76333-76356, 2020, doi: 10.1109/ACCESS.2020.2987057.",
+      "doi": "10.1109/ACCESS.2020.2987057",
+      "key": "ref34",
+      "metadata": {
+        "authors": [
+          "Ali Muhammad Usman",
+          "Umi Kalsom Yusof",
+          "Syibrah Naim"
+        ],
+        "container_title": "IEEE Access",
+        "doi": "10.1109/access.2020.2987057",
+        "issue": null,
+        "page": "76333-76356",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "Filter-Based Multi-Objective Feature Selection Using NSGA III and Cuckoo Optimization Algorithm",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/access.2020.2987057",
+        "volume": "8",
+        "year": 2020
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Filter-based multi-objective feature selection using NSGA III and cuckoo optimization algorithm,",
+      "title_similarity": 1.0
+    },
+    {
+      "arxiv": null,
+      "citation": "H. Wang, Y. Lin, W. Zhang, W. Ye, M. Zhang, and X. Dong, \"Safe autonomous exploration and adaptive path planning strategy using signed distance field,\" IEEE Access, vol. 11, pp. 144663-144675, 2023, doi: 10.1109/ACCESS.2023.3344218.",
+      "doi": "10.1109/ACCESS.2023.3344218",
+      "key": "ref35",
+      "metadata": {
+        "authors": [
+          "Heying Wang",
+          "Yuan Lin",
+          "Wei Zhang",
+          "Wentao Ye",
+          "Mingming Zhang",
+          "Xue Dong"
+        ],
+        "container_title": "IEEE Access",
+        "doi": "10.1109/access.2023.3344218",
+        "issue": null,
+        "page": "144663-144675",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "title": "Safe Autonomous Exploration and Adaptive Path Planning Strategy Using Signed Distance Field",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/access.2023.3344218",
+        "volume": "11",
+        "year": 2023
+      },
+      "registry": "Crossref DOI lookup",
+      "status": "verified",
+      "title": "Safe autonomous exploration and adaptive path planning strategy using signed distance field,",
+      "title_similarity": 1.0
+    }
+  ],
+  "reference_count": 35,
+  "schema": "sapo-echo-reference-audit-v1",
+  "source": "paper/references.tex",
+  "source_sha256": "1d1d9bb75bd05a4faee6562e007ed840f1ca55e7f5df0e669bf173fccfbdeb16",
+  "status_counts": {
+    "verified": 35
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "primary_A12": {
+    "conditions": {
+      "at_least_7_of_10_wins_vs_both_nsga3_on_claimed_layouts": false,
+      "equal_layout_double_above_nsga3": true,
+      "equal_layout_double_above_nsga3tb": true,
+      "equal_layout_double_above_v2": true,
+      "equal_layout_single_above_nsga3": true,
+      "equal_layout_single_above_nsga3tb": true,
+      "equal_layout_single_above_v2": true,
+      "hv_loss_vs_best_at_most_0_005": false,
+      "runtime_ratio_vs_nsga3_at_most_1_5": true,
+      "single_edge_highest_on_at_least_2_of_3_layouts": true
+    },
+    "highest_layouts": [
+      "wh10b",
+      "wh20a",
+      "wh20b"
+    ],
+    "paired_wins_on_claimed_layouts": {
+      "wh10b": {
+        "NSGA3": 10,
+        "NSGA3-TB": 9
+      },
+      "wh20a": {
+        "NSGA3": 8,
+        "NSGA3-TB": 9
+      },
+      "wh20b": {
+        "NSGA3": 6,
+        "NSGA3-TB": 6
+      }
+    },
+    "passed": false
+  },
+  "registered_runs": 300,
+  "scaling_A8_A16": {
+    "cells_above_nsga3tb": 4,
+    "conditions": {
+      "equal_cell_double_above_nsga3tb": true,
+      "equal_cell_single_above_nsga3tb": true,
+      "hv_loss_vs_best_at_most_0_005": true,
+      "runtime_ratio_vs_nsga3_at_most_1_5": true,
+      "single_edge_above_nsga3tb_on_at_least_4_of_6_cells": true
+    },
+    "passed": true
+  },
+  "schema": "mapf-ec-warehouse-replication-decision-v1"
+}

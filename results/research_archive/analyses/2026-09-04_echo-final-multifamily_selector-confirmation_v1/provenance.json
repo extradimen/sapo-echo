@@ -1,0 +1,135 @@
+{
+  "evidence_status": "confirmatory",
+  "nsga2_archive": "passive 2N objective-only archive reconstructed generation by generation; decision-identity deduplication, nondominated filtering, deterministic reference-independent crowding truncation; never re-enters search",
+  "protocol": "research_archive/plans/2026-09-03_echo_final_multifamily_protocol_v1.md",
+  "quality_fraction": 0.7,
+  "random_replicates": 20,
+  "schema": "echo-final-multifamily-identical-pool-confirmation-v1",
+  "script": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/analyze_echo_final_multifamily.py",
+  "script_sha256": "0f4d333205aa14d076cbd9d6a640d0b07caa72d7a7211de913de5b633e58bcaf",
+  "selectors": [
+    "objective_only",
+    "random_quality_matched",
+    "edge_jaccard",
+    "minimum_common_edge",
+    "kmedoids_edge",
+    "common_vertex_overlap",
+    "xu2025_paper_vertex",
+    "xu2025_official_edge",
+    "echo"
+  ],
+  "sources": [
+    {
+      "config_sha256": "68be13505570887eff63466a8271567af5046320934f1dad9841297dc8b88055",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-03_echo-final-multifamily_wh10a_even14_seed1401-1420_v1",
+      "manifest_sha256": "a8df8e506f96fe0ac6d78744f9ba1b4b7f701029c8a35eb6fd35193b458381d1",
+      "scenario": "wh10a",
+      "seed_end": 1420,
+      "seed_start": 1401
+    },
+    {
+      "config_sha256": "bde688395a425fae5f6bcf544a3ab811fb32c61a845df682021014af9433906f",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "manifest_sha256": "6d3f9af3f48385a3eb3b89b5c00a471bff95a2a5dabbefab384b806c6a023029",
+      "scenario": "wh10b",
+      "seed_end": 1420,
+      "seed_start": 1401
+    },
+    {
+      "config_sha256": "c3262d808f8d0ed96d999395fbc56bf7d9fb59afe5724d4ae1ca2017175a5fe7",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-03_echo-final-multifamily_wh20a_even14_seed1401-1420_v1",
+      "manifest_sha256": "5615f0ddb19bb55c7b1ef597f1a22312c95fcdbae638941b66336d981cc7c1da",
+      "scenario": "wh20a",
+      "seed_end": 1402,
+      "seed_start": 1401
+    },
+    {
+      "config_sha256": "33254f0c5b86acd3fc8692c3fa8a7e69a900ea993f69eada7ca875cd4512f24e",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-03_echo-final-multifamily_wh20a_even14_seed1403-1420_recovery_v1",
+      "manifest_sha256": "663eef6115edd3edacc6fd05538e8d7b0e880e3caed66bc2a2208e1c367c5f31",
+      "scenario": "wh20a",
+      "seed_end": 1420,
+      "seed_start": 1403
+    },
+    {
+      "config_sha256": "506053a1b83523310121908610ec74eadaca890a580cca25feae23b04cd8f744",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-04_echo-final-multifamily_wh20b_even14_seed1401-1410_recovery_v2",
+      "manifest_sha256": "14db3b3a5eb21f3b5f6a0dff3e79bf13c82b78a648863febf414b5c6eb7ad913",
+      "scenario": "wh20b",
+      "seed_end": 1410,
+      "seed_start": 1401
+    },
+    {
+      "config_sha256": "46f4eb927be7f6e26c4d8efa86daa724ea88965247b16b693fbf167ef1005f64",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-04_echo-final-multifamily_wh20b_even14_seed1411-1420_recovery_v2",
+      "manifest_sha256": "2905ba706cf808f2d92d49b11bce901e2d3e71409819f67d1e7afd48994991ef",
+      "scenario": "wh20b",
+      "seed_end": 1420,
+      "seed_start": 1411
+    },
+    {
+      "config_sha256": "1fb14315c0d1735adea633ea69b4286bf257375845526db99615111cd41c3793",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "manifest_sha256": "d11680cb02d77ff2bb379c6dc5533fe9bfa089a451a4645621179baa047f77cf",
+      "scenario": "random32",
+      "seed_end": 1410,
+      "seed_start": 1401
+    },
+    {
+      "config_sha256": "accc887e546c7f016927aec1f65fe43eb15cfda9870585444d3ed9ceaddb5e71",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-04_echo-final-multifamily_random32_even14_seed1411-1420_chunk_v2",
+      "manifest_sha256": "a47477ef89d1029212291cd9e557309c9554e7f5e14d2ea6553d479371898a09",
+      "scenario": "random32",
+      "seed_end": 1420,
+      "seed_start": 1411
+    },
+    {
+      "config_sha256": "b9e5f6ab44940df2034d4a7b3b09d645f266e6cf631adb793fb145799c87f7ab",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-04_echo-final-multifamily_room32_even14_seed1401-1410_chunk_v1",
+      "manifest_sha256": "1eb2f9730b51128940b36ae51cf36ce01b1a7b38718c66316989b79eebcec87a",
+      "scenario": "room32",
+      "seed_end": 1410,
+      "seed_start": 1401
+    },
+    {
+      "config_sha256": "bfbe23f41f3ee96dc2417d1dc690aebac720a2418813904a60fdbc715b83b29b",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-04_echo-final-multifamily_room32_even14_seed1411-1420_chunk_v1",
+      "manifest_sha256": "b50b919286394ebaf0438f7bec2adaa4aba5bb23fd11f28d98fdcf08d44a2b83",
+      "scenario": "room32",
+      "seed_end": 1420,
+      "seed_start": 1411
+    },
+    {
+      "config_sha256": "44997994a1bc9ba84a38728ceee3a7abd56733b434dfb41694577453ca1aef60",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-04_echo-final-multifamily_maze32a_even14_seed1401-1410_chunk_v1",
+      "manifest_sha256": "8a7aa39462f61e2401dd0be5a7fe35a855dbd99cb1c968b0966119a011ba7b1b",
+      "scenario": "maze32a",
+      "seed_end": 1410,
+      "seed_start": 1401
+    },
+    {
+      "config_sha256": "8b29fb2272c0e7419bc8c04891e13d02c7f766f22a0b1ef2d9d2061a5c9fa5f5",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-04_echo-final-multifamily_maze32a_even14_seed1411-1420_chunk_v1",
+      "manifest_sha256": "1f7c69c7c97b415b75c79306b9e8c90d679d311f6095cf62071b0d47aa78bfca",
+      "scenario": "maze32a",
+      "seed_end": 1420,
+      "seed_start": 1411
+    },
+    {
+      "config_sha256": "80addcd21cea8dd887ec653967cd1b6c2b3c8406ba3404101afb19bac069387a",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "manifest_sha256": "d22287740ccd00398e31d802fec0ed8bfad8e3a1a67533edd21f67a65467ff86",
+      "scenario": "maze32b",
+      "seed_end": 1410,
+      "seed_start": 1401
+    },
+    {
+      "config_sha256": "a934e11eed0069a4b110a08d3a2d69b8c0ee2ff43a8da0d2212a83a0496a94cb",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-04_echo-final-multifamily_maze32b_even14_seed1411-1420_chunk_v1",
+      "manifest_sha256": "f2e3269875d93db0121f713d54603afff4ca215ec1eff8a7745d1fb936702b7d",
+      "scenario": "maze32b",
+      "seed_end": 1420,
+      "seed_start": 1411
+    }
+  ]
+}

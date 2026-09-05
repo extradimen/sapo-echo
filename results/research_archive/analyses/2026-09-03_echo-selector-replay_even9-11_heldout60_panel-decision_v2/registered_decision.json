@@ -1,0 +1,71 @@
+{
+  "conditions": {
+    "echo_equal_scenario_psc1_above_every_deterministic_generic": true,
+    "echo_highest_psc1_on_at_least_2_of_3_scenarios": true,
+    "echo_hv_within_0_005_of_panel_best": true,
+    "echo_psc2_within_0_005_of_panel_best": true,
+    "hierarchical_psc1_ci_low_above_zero_vs_strongest_generic": true
+  },
+  "echo_highest_psc1_scenarios": 3,
+  "equal_scenario_means": {
+    "common_vertex_overlap": {
+      "exact_group_undirected_edge_coverage": 0.7890092792397224,
+      "exact_group_undirected_two_edge_coverage": 0.6438528499319802,
+      "hv_ratio_empirical": 1.0
+    },
+    "echo": {
+      "exact_group_undirected_edge_coverage": 0.7951223298742179,
+      "exact_group_undirected_two_edge_coverage": 0.6514970046391434,
+      "hv_ratio_empirical": 1.0
+    },
+    "edge_jaccard": {
+      "exact_group_undirected_edge_coverage": 0.7894048333530316,
+      "exact_group_undirected_two_edge_coverage": 0.6445206268075979,
+      "hv_ratio_empirical": 1.0
+    },
+    "kmedoids_edge": {
+      "exact_group_undirected_edge_coverage": 0.7863949623840288,
+      "exact_group_undirected_two_edge_coverage": 0.6382078744904576,
+      "hv_ratio_empirical": 1.0
+    },
+    "minimum_common_edge": {
+      "exact_group_undirected_edge_coverage": 0.7891040993507357,
+      "exact_group_undirected_two_edge_coverage": 0.6438546003803364,
+      "hv_ratio_empirical": 1.0
+    },
+    "objective_only": {
+      "exact_group_undirected_edge_coverage": 0.7794023323569007,
+      "exact_group_undirected_two_edge_coverage": 0.6246436846346132,
+      "hv_ratio_empirical": 1.0
+    },
+    "random_quality_matched": {
+      "exact_group_undirected_edge_coverage": 0.7774818180416577,
+      "exact_group_undirected_two_edge_coverage": 0.6221413473379657,
+      "hv_ratio_empirical": 1.0
+    }
+  },
+  "hierarchical_psc1_difference": {
+    "ci95_high": 0.01113363092672559,
+    "ci95_low": 0.002165046110395945,
+    "draws": 20000,
+    "mean": 0.005717496521186277
+  },
+  "interpretation_limit": "Final-composer confirmation on held-out archived ECHO-retained candidate pools; not a temporal-archive or published-method comparison.",
+  "passed": true,
+  "scenarios": [
+    "even10",
+    "even11",
+    "even9"
+  ],
+  "schema": "echo-identical-pool-heldout-panel-decision-v1",
+  "selectors": [
+    "common_vertex_overlap",
+    "echo",
+    "edge_jaccard",
+    "kmedoids_edge",
+    "minimum_common_edge",
+    "objective_only",
+    "random_quality_matched"
+  ],
+  "strongest_deterministic_generic_psc1": "edge_jaccard"
+}

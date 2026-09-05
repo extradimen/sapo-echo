@@ -1,0 +1,49 @@
+{
+  "cells": {
+    "echo_archive_objective": [
+      "NSGA3-ECHO",
+      true,
+      "objective_only"
+    ],
+    "full_echo": [
+      "NSGA3-ECHO",
+      true,
+      "echo"
+    ],
+    "no_archive_objective": [
+      "NSGA3",
+      false,
+      "objective_only"
+    ],
+    "objective_archive_echo": [
+      "NSGA3-ObjectiveArchive",
+      true,
+      "echo"
+    ],
+    "objective_archive_objective": [
+      "NSGA3-ObjectiveArchive",
+      true,
+      "objective_only"
+    ]
+  },
+  "evidence_status": "confirmatory",
+  "invariant": "all archived variants must have bitwise-identical live X/F; ordinary NSGA3 is used when present, otherwise the passive objective-archive run is the live control",
+  "quality_fraction": 0.7,
+  "schema": "echo-temporal-archive-five-cell-ablation-v1",
+  "script": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/analyze_echo_temporal_archive_ablation.py",
+  "script_sha256": "a14c063f433535450862045e16246e7c3885416843db32fd427e0cc23a739c5f",
+  "sources": [
+    {
+      "config_sha256": "5208230f50d141f74e82cf68ab4023b085021417e329819186e7be6ae60ee697",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-03_echo-temporal-archive_even12_confirm20_v1",
+      "label": "even12",
+      "manifest_sha256": "10470402977040e81c2957b0402f2ee8a2e9529af48c5d73224d267c12908d5e"
+    },
+    {
+      "config_sha256": "d4649f63f61e0ffc9264345551c7433702acb9a558d77456d05f360aa41c8145",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-03_echo-temporal-archive_even13_confirm20_v1",
+      "label": "even13",
+      "manifest_sha256": "b749cb6ab111556a461efc709619debae61bb43bdebe423370aea33a5faa9df8"
+    }
+  ]
+}

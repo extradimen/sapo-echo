@@ -1,0 +1,17 @@
+{
+  "bootstrap_draws": 20000,
+  "interpretation_rule": "Positive differences favor ECHO. Because E7b was motivated by the E7 diagnosis, intervals quantify an exploratory mechanism check and must not be described as preregistered confirmation. Ties are retained.",
+  "primary_bootstrap_unit": "scenario",
+  "random_replicates": "collapsed within seed by the E7b replay",
+  "schema": "echo-e7b-supported-resource-exploratory-decision-v1",
+  "secondary_bootstrap_unit": "seed",
+  "source_units": 320,
+  "source_units_with_actionable_resource_classes": 305,
+  "status": "post_hoc_exploratory",
+  "strongest_class_success_comparator_by_observed_mean": {
+    "ci_high": 0.014062499999999999,
+    "ci_low": -0.0015625000000000005,
+    "echo_minus_comparator": 0.005312499999999999,
+    "selector": "xu2025_official_edge"
+  }
+}

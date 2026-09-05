@@ -1,0 +1,30 @@
+{
+  "classification": "fixed_islands_not_demonstrated_use_parsimonious_nsga3_ec",
+  "conditions": {
+    "double_ci_low_gt_0": false,
+    "double_mean_gain_gt_0_01": false,
+    "hv_loss_at_most_0_005": true,
+    "runtime_ratio_at_most_1_5": true,
+    "single_ci_low_gt_0": false,
+    "single_mean_gain_gt_0_01": false,
+    "unique_plans_not_lower": true
+  },
+  "confirmation_pairs": 60,
+  "mean_hv_delta": -0.0029743105173694385,
+  "mean_unique_plan_delta": 0.0,
+  "registered_runs": 160,
+  "runtime_ratio_candidate_over_control": 1.0374841508687014,
+  "schema": "mapf-nsga3ec-attribution-decision-v1",
+  "single_edge": {
+    "ci95_high": 0.018240854476397284,
+    "ci95_low": -0.004363901748167989,
+    "draws": 20000,
+    "mean": 0.0040244337139161744
+  },
+  "two_edge": {
+    "ci95_high": 0.004113289802884553,
+    "ci95_low": -0.008071193741696339,
+    "draws": 20000,
+    "mean": -0.0018882796566755788
+  }
+}

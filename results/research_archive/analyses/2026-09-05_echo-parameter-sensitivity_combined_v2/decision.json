@@ -1,0 +1,53 @@
+{
+  "all_hv_surface_means_above_minus_0005": true,
+  "all_warehouse_psc1_surface_means_nonnegative": true,
+  "default_2N_q07": [
+    {
+      "archive_multiplier": 2.0,
+      "equal_scenario_mean_improvement": 0.012497552729273095,
+      "generator": "NSGA3-ObjectiveArchive",
+      "hierarchical_ci_high": 0.02213871167653524,
+      "hierarchical_ci_low": 0.004184037812142468,
+      "metric": "exact_group_undirected_edge_coverage",
+      "panel": "warehouse",
+      "quality_fraction": 0.7
+    },
+    {
+      "archive_multiplier": 2.0,
+      "equal_scenario_mean_improvement": 0.0098177160162574,
+      "generator": "NSGA2",
+      "hierarchical_ci_high": 0.016622058480826752,
+      "hierarchical_ci_low": 0.0043491027101505535,
+      "metric": "exact_group_undirected_edge_coverage",
+      "panel": "warehouse",
+      "quality_fraction": 0.7
+    },
+    {
+      "archive_multiplier": 2.0,
+      "equal_scenario_mean_improvement": 0.011157634372765247,
+      "generator": "paired-generator-average",
+      "hierarchical_ci_high": 0.019246712525415544,
+      "hierarchical_ci_low": 0.004267938720646879,
+      "metric": "exact_group_undirected_edge_coverage",
+      "panel": "warehouse",
+      "quality_fraction": 0.7
+    }
+  ],
+  "default_preserved": true,
+  "interpretation": "Sensitivity is evidence of robustness, not a parameter-selection exercise.",
+  "result_rows": 5760,
+  "schema": "echo-parameter-sensitivity-combined-decision-v2",
+  "source_scenarios": [
+    "wh10a",
+    "wh10b",
+    "wh20a",
+    "wh20b",
+    "random32",
+    "room32",
+    "maze32a",
+    "maze32b"
+  ],
+  "warehouse_psc1_positive_ci_cells": 45,
+  "warehouse_psc1_total_cells": 45,
+  "worst_hv_surface_mean": -0.0005444766395848761
+}

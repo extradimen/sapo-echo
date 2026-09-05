@@ -1,0 +1,27 @@
+algorithm: PNSGA-III-EC
+status: frozen-application-specific
+scope: MAPF portfolios under undirected physical-edge closure
+representation:
+  decoder: prioritized-space-time-a-star
+  route_risk_preference_levels: 21
+search:
+  base: PNSGA-III-v2
+  islands: 4
+  main_explorer_allocation: [0.7, 0.1, 0.1, 0.1]
+  exchange: false
+archive:
+  passive: true
+  capacity_population_multiplier: 2
+  objective_core_fraction: 0.5
+  selection: exact-objective-edge-failure-coverage
+  reenters_search: false
+output:
+  size_population_multiplier: 1
+  objective_core_fraction: 0.7
+  remaining_selection: exact-objective-edge-failure-coverage
+confirmation:
+  scenario: warehouse-10-20-10-2-1-even-4
+  agents: 12
+  population: 30
+  evaluations: 150
+  seeds: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310]

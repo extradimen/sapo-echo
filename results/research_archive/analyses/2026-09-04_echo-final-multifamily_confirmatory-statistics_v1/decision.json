@@ -1,0 +1,14 @@
+{
+  "hv_guardrail": {
+    "all_scenario_generator_mean_improvements_above_threshold": true,
+    "threshold": -0.005,
+    "worst_scenario_generator_mean_improvement": -0.0010889532791697521
+  },
+  "interpretation": "Positive improvement favors ECHO for every metric; IGD signs are reversed. Scenario is the primary bootstrap unit.",
+  "primary_endpoint": "exact_group_undirected_edge_coverage",
+  "warehouse_primary_pass_by_generator": {
+    "NSGA2": true,
+    "NSGA3-ObjectiveArchive": true,
+    "paired-generator-average": true
+  }
+}

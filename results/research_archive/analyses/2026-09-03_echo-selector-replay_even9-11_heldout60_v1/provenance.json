@@ -1,0 +1,38 @@
+{
+  "evidence_status": "development; post-hoc selector comparison",
+  "quality_fraction": 0.7,
+  "random_replicates": 20,
+  "schema": "echo-identical-final-pool-selector-replay-v1",
+  "script": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/analyze_echo_selector_replay.py",
+  "script_sha256": "8f9d5af570a7cf96b534c7ae90f2eddd309d79ccc83ff1ea259f5cd383a4558c",
+  "selectors": [
+    "objective_only",
+    "random_quality_matched",
+    "edge_jaccard",
+    "minimum_common_edge",
+    "kmedoids_edge",
+    "common_vertex_overlap",
+    "echo"
+  ],
+  "source_pool": "Final live population plus the passive failure-coverage archive from the last saved pre-composition snapshot. This gives every final selector identical candidates but does not compare counterfactual temporal archive policies because early ordinary NSGA-III generations were not always recorded.",
+  "sources": [
+    {
+      "config_sha256": "07ec28430e1c9f6b8dc9d826a66ab8c1b7ee6c32ada31087e558ec4af3a075ff",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-03_movingai-mapf_nsga3ec-attribution_even9_confirm20_v1",
+      "label": "even9",
+      "manifest_sha256": "32369f41112286d2c78753986daa63c4705a87d11a236ce63fe23e17c33b2b04"
+    },
+    {
+      "config_sha256": "5e832eb3b59b1b43bb1f1c18010ee1ebaed1fed39242148a84651bd22b4b54ca",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-03_movingai-mapf_nsga3ec-attribution_even10_confirm20_v1",
+      "label": "even10",
+      "manifest_sha256": "4429a02e47b7f3ac4d87f1d03bda87b219453f02aecce4b479c7642f23b1401d"
+    },
+    {
+      "config_sha256": "428fd872e16f4d6293a49b9fe459b36c9073c57acdb65f2f31df3045bf59e353",
+      "experiment": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/experiments/2026-09-03_movingai-mapf_nsga3ec-attribution_even11_confirm20_v1",
+      "label": "even11",
+      "manifest_sha256": "b8902cc1c9dbcb544d59c7cb04bb5b6e009a51d9582d01f4a32ed97fa81d26f3"
+    }
+  ]
+}

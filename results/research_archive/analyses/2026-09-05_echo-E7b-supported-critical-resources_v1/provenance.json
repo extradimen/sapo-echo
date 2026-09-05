@@ -1,0 +1,13 @@
+{
+  "pool_units": 320,
+  "protocol": "research_archive/plans/2026-09-05_echo_E7b_supported-critical-resources_protocol_v1.md",
+  "protocol_sha256": "485d5195088298166ac2c63fb5e8b70ac8d6bee463ba346ac2893b76208b59d0",
+  "random_repeats": 20,
+  "schema": "echo-E7b-supported-critical-resources-v1",
+  "script": "analyze_echo_e7b_critical_resources.py",
+  "script_sha256": "f53f516f9f160b746c2769b39ec4c9bf6e51b9951ef42042a0aafbdad8697df5",
+  "source": "research_archive/analyses/2026-09-04_echo-final-multifamily_selector-confirmation_v1",
+  "source_sha256s_sha256": "bf74859b2391f9b822f99331f2681f43d51152b6a86300c4da5284ec04fa48c9",
+  "status": "post-hoc exploratory; no new search",
+  "top_unique_supported_classes_per_unit": 10
+}

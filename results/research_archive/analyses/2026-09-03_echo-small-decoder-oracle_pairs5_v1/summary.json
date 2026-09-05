@@ -1,0 +1,12 @@
+{
+  "schema": "echo-small-decoder-universe-oracle-v1",
+  "created_utc": "2026-09-03T13:33:35.724567+00:00",
+  "evidence_status": "confirmatory",
+  "valid_cells": 12,
+  "omitted_cells": 3,
+  "minimum_ratio": 1.0,
+  "median_ratio": 1.0,
+  "all_above_one_minus_inverse_e": true,
+  "median_at_least_095": true,
+  "claim_boundary": "Exact residual selection over the complete finite prioritized-decoder universe, conditional on a fixed objective core; not all mathematical MAPF paths."
+}

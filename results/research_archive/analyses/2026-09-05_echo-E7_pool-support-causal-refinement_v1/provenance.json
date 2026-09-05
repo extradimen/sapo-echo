@@ -1,0 +1,10 @@
+{
+  "addendum": "research_archive/plans/2026-09-05_echo_E7_pool-support_classification_addendum_v1.md",
+  "addendum_sha256": "4b9867014b844ac6572c2c9c7028e534b4e2508bc7bb290d764983657f79f6c3",
+  "no_decoder_or_optimizer_replay": true,
+  "script": "analyze_echo_E7_pool_support_refinement.py",
+  "script_sha256": "b089ddf836da279b597fe163d0ca02724c5c49ccfc3e5f113635a992edf13593",
+  "source": "research_archive/analyses/2026-09-05_echo-E7_pool-support-audit_v2",
+  "source_event_table_sha256": "46e84985b93af803702181dd35f983b6350a9bd24cd31d8b6580359520884187",
+  "source_sha256s_sha256": "98c4b52fba38b1a7d12e7ef89ddf7c815614615b821e6975028b0a52fa8eeb71"
+}
