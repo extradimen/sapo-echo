@@ -1,0 +1,10 @@
+{
+  "bootstrap_draws": 20000,
+  "evidence_status": "post-hoc development; not untouched confirmation",
+  "inference_unit": "problem x seed; random repeats collapsed within seed",
+  "schema": "echo-identical-pool-selector-decision-v1",
+  "script": "local-workspace://analyze_echo_selector_decision.py",
+  "script_sha256": "29ae527772c04886a74cdb2f93ac6a6da64edcef4e67af1dd7ca81b0f8004a3e",
+  "source_results": "local-workspace://research_archive/analyses/2026-09-03_echo-selector-xu2025-adaptation_audit80_v1/selector_results.csv",
+  "source_results_sha256": "f5b2e9b2769d937b83b01e1face58f0746806934c41278236d42395e623d3b20"
+}

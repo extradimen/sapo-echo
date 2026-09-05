@@ -1,0 +1,38 @@
+method: NSGA-III-ECHO
+status: frozen-paper-configuration
+scope: collision-free MAPF portfolios under undirected physical-edge closure
+
+problem:
+  representation: prioritized space-time A-star decoder
+  agents: 12
+  objectives:
+    - sum_of_costs
+    - clearance_risk
+
+search:
+  base: single-population NSGA-III
+  population_size: 30
+  path_evaluation_budget: 150
+  initialization: scrambled Sobol
+  islands: 1
+  migration: false
+
+temporal_archive:
+  policy: objective-only
+  update_interval_generations: 5
+  capacity_population_multiplier: 2
+  passive: true
+  reenters_search: false
+
+output_portfolio:
+  size: 30
+  objective_core_fraction: 0.70
+  remaining_policy: ECHO marginal single-edge-closure coverage
+
+evaluation:
+  directly_optimized_endpoint: PSC-1
+  transfer_endpoint: PSC-2
+  objective_guardrails:
+    - empirical_hypervolume_ratio
+    - empirical_IGD
+  bootstrap_draws: 20000

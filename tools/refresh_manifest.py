@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED = {"MANIFEST.csv", "SHA256SUMS"}
+EXCLUDED_DIRECTORIES = {".git", "__pycache__", "build", "dist", ".venv"}
 
 
 def main() -> None:
@@ -18,7 +19,7 @@ def main() -> None:
         for path in ROOT.rglob("*")
         if path.is_file()
         and path.name not in EXCLUDED
-        and ".git" not in path.parts
+        and not EXCLUDED_DIRECTORIES.intersection(path.parts)
     )
     rows: list[tuple[str, int, str]] = []
     checksums: list[str] = []
@@ -29,7 +30,7 @@ def main() -> None:
         checksums.append(f"{digest}  {relative}")
 
     with (ROOT / "MANIFEST.csv").open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.writer(handle)
+        writer = csv.writer(handle, lineterminator="\n")
         writer.writerow(["path", "bytes", "sha256"])
         writer.writerows(rows)
     (ROOT / "SHA256SUMS").write_text(

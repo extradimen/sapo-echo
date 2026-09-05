@@ -1,0 +1,16 @@
+paper_result_section,public_path,local_archive_identifier,evidence_role
+Identical-Pool Selector Confirmation,results/01_identical_pool_selector/replay,2026-09-03_echo-selector-replay_even9-11_heldout60_v1,per-seed identical-pool selector replay
+Identical-Pool Selector Confirmation,results/01_identical_pool_selector/statistics,2026-09-03_echo-selector-replay_even9-11_heldout60_panel-decision_v2,registered held-out decision and scenario means
+Closest Published Mechanism Adaptations,results/02_published_mechanism_comparison/xu2025_adaptations,2026-09-03_echo-selector-xu2025-adaptation_audit80_decision_v1,paired mechanism-level statistics
+Multi-Family and Parameter Robustness,results/03_multifamily_and_sensitivity/frozen_panel,2026-09-04_echo-final-multifamily_selector-confirmation_v1,frozen eight-scenario selector panel
+Multi-Family and Parameter Robustness,results/03_multifamily_and_sensitivity/statistics,2026-09-04_echo-final-multifamily_confirmatory-statistics_v1,hierarchical confirmatory inference
+Multi-Family and Parameter Robustness,results/03_multifamily_and_sensitivity/parameter_sensitivity,2026-09-05_echo-parameter-sensitivity_combined_v2,archive-capacity and quality-core sensitivity
+Supported-Resource Stress Audit,results/04_supported_resource_stress/replay,2026-09-05_echo-E7b-supported-critical-resources_v1,post-hoc supported-resource replay
+Supported-Resource Stress Audit,results/04_supported_resource_stress/statistics,2026-09-05_echo-E7b-supported-critical-resources_statistics_v1,hierarchical stress-audit inference
+Component Attribution,results/05_component_attribution/development_ablation,2026-09-03_echo-temporal-archive_even8_dev20_ablation_v1,five-cell development ablation
+Component Attribution,results/05_component_attribution/confirmation_ablation,2026-09-03_echo-temporal-archive_even12-13_confirm40_ablation_v1,held-out archive confirmation
+Component Attribution,results/05_component_attribution/search_architecture,2026-09-03_movingai-mapf_nsga3ec-attribution_confirm3x20_decision_v1,search-architecture attribution
+Objective Safeguards and Computational Cost,results/06_cost_boundary_and_support/warehouse_scaling,2026-09-02_movingai-mapf_ec-warehouse-replication_scaling_decision_v1,warehouse replication and scaling evidence
+Failure Boundary,results/06_cost_boundary_and_support/small_decoder_oracle,2026-09-03_echo-small-decoder-oracle_pairs5_v1,small exact residual audit
+Failure Boundary,results/06_cost_boundary_and_support/equal_budget_replanning,2026-09-05_echo-equal-budget-replanning_E7_v2,equal-budget replanning stress test
+Failure Boundary,results/06_cost_boundary_and_support/candidate_supply_audit,2026-09-05_echo-E7_pool-support-causal-refinement_v1,candidate-supply causal classification

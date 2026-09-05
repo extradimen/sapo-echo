@@ -1,7 +1,0 @@
-{
-  "protocol": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/plans/2026-09-03_echo-selector-heldout-replay_protocol_v1.md",
-  "script": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/decide_echo_selector_panel.py",
-  "script_sha256": "9f54e8e40250a2ed349bf36ce9779cfdbd58b9c7ae1e1496bea42a5ca7ef1849",
-  "source_results": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/analyses/2026-09-03_echo-selector-replay_even9-11_heldout60_v1/selector_results.csv",
-  "source_results_sha256": "82dc3fb723337492437008fcd919a8a4bfe668597ca48f56af5802d190b16f32"
-}
