@@ -42,7 +42,8 @@ fleets.
   protocols. The operational configuration is
   [`code/config/ieee_revision_operational_replan_v1.json`](code/config/ieee_revision_operational_replan_v1.json).
 - [`paper/table09_operational.tex`](paper/table09_operational.tex) is the exact
-  source for the new operational-results table.
+  source for the new operational-results Table 6. Its filename is an internal
+  source identifier; the compiled manuscript number is Table 6.
 - [`SOURCE_MAP.csv`](SOURCE_MAP.csv) maps every copied file to its unchanged
   working-archive path and SHA-256. Each evidence directory also retains its
   original `SHA256SUMS` manifest.

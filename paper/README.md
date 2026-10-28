@@ -4,7 +4,7 @@ The manuscript itself is not duplicated here while it is under review. The
 figures are provided to make the evidence path easy to inspect.
 
 For the resubmission's corrected numerical results, code and new operational
-Table 9, use [`../revision/`](../revision/). The figure mapping below describes
+Table 6, use [`../revision/`](../revision/). The figure mapping below describes
 the original submission and is retained for provenance.
 
 | Figure | File | Evidence |
