@@ -1,0 +1,5 @@
+{
+  "all_strict_psc2_nonnegative": true,
+  "interpretation": "Archive filling and retained-content effects are distinct.  Only paired equal-cardinality contrasts in paired_inference.csv support retained-content attribution.",
+  "schema": "ieee-revision-cardinality-statistics-decision-v1"
+}

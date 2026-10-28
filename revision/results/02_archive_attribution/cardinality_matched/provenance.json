@@ -1,0 +1,30 @@
+{
+  "common_event_universe": "objective-archive eligible pool",
+  "evidence_status": "post-review revision analysis",
+  "fixed_cardinality_rule": "per seed, min(N, unique nondominated live pool, unique nondominated objective-archive pool)",
+  "protocol": "research_archive/plans/2026-10-28_ieee-access-revision-experiment-protocol_v1.md",
+  "protocol_sha256": "bb5397acee0e7a45434ded9a1c5f004db537520f60600d552984f6c499f73708",
+  "schema": "ieee-revision-cardinality-matched-archive-v1",
+  "script": "analyze_ieee_revision_cardinality_ablation.py",
+  "script_sha256": "ee373848b93d86142065e41d65d4ba5987526e57b96d38aac99e49060fc04afa",
+  "sources": [
+    {
+      "config_sha256": "03f3a0dfe4267a71694bb98ca9db494b8024df66a79cbd7e319cbb5455502874",
+      "experiment": "2026-09-03_echo-temporal-archive_even8_dev20_v1",
+      "manifest_sha256": "fa600aaf627e2e22fb9a166cf3b2b0706ffaf9cb623ecc936a2baf9701067bb0",
+      "problem": "even8-development"
+    },
+    {
+      "config_sha256": "5208230f50d141f74e82cf68ab4023b085021417e329819186e7be6ae60ee697",
+      "experiment": "2026-09-03_echo-temporal-archive_even12_confirm20_v1",
+      "manifest_sha256": "10470402977040e81c2957b0402f2ee8a2e9529af48c5d73224d267c12908d5e",
+      "problem": "even12-confirmation"
+    },
+    {
+      "config_sha256": "d4649f63f61e0ffc9264345551c7433702acb9a558d77456d05f360aa41c8145",
+      "experiment": "2026-09-03_echo-temporal-archive_even13_confirm20_v1",
+      "manifest_sha256": "b749cb6ab111556a461efc709619debae61bb43bdebe423370aea33a5faa9df8",
+      "problem": "even13-confirmation"
+    }
+  ]
+}

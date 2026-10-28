@@ -1,0 +1,7 @@
+{
+  "e7_events": 400,
+  "e7_mean_survivor_count": 0.075,
+  "e7_success_rate": 0.025,
+  "e7b_strict_units": 305,
+  "schema": "ieee-revision-critical-edge-replay-summary-v1"
+}

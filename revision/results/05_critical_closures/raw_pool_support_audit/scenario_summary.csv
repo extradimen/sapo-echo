@@ -1,0 +1,5 @@
+scenario,events,pool_supported_events,pool_support_rate,generation_misses,selection_misses,echo_successes,objective_only_success_all,objective_only_success_given_pool_support,edge_jaccard_success_all,edge_jaccard_success_given_pool_support,minimum_common_edge_success_all,minimum_common_edge_success_given_pool_support,kmedoids_edge_success_all,kmedoids_edge_success_given_pool_support,common_vertex_overlap_success_all,common_vertex_overlap_success_given_pool_support,xu2025_paper_vertex_success_all,xu2025_paper_vertex_success_given_pool_support,xu2025_official_edge_success_all,xu2025_official_edge_success_given_pool_support,echo_success_all,echo_success_given_pool_support
+maze32b,100,0,0.0,100,0,0,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan
+random32,100,0,0.0,100,0,0,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan
+wh10b,100,0,0.0,100,0,0,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan,0.0,nan
+wh20a,100,10,0.1,90,0,10,0.0,0.0,0.1,1.0,0.1,1.0,0.1,1.0,0.1,1.0,0.1,1.0,0.1,1.0,0.1,1.0

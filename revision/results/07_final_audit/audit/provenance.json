@@ -1,0 +1,14 @@
+{
+  "schema": "ieee-revision-final-audit-provenance-v1",
+  "script": "audit_ieee_revision_evidence.py",
+  "script_sha256": "fbc8cf499f176b36da43932a91426d761e8e3482a1c0b860c04a2600d187b488",
+  "sources": {
+    "cardinality": "2026-10-28_ieee-revision_cardinality-matched-archive_v1",
+    "cardinality_statistics": "2026-10-28_ieee-revision_cardinality-statistics_v1",
+    "consistency": "2026-10-28_ieee-revision_portfolio-consistency_v1",
+    "critical_edges": "2026-10-28_ieee-revision_critical-edge-replay_v1",
+    "oracle": "2026-10-28_ieee-revision_corrected-oracle_v1",
+    "scaling": "2026-10-28_ieee-revision_larger-fleet_v1",
+    "statistics": "2026-10-28_ieee-revision_portfolio-statistics_v1"
+  }
+}

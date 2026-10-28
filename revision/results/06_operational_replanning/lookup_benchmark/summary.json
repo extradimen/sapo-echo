@@ -1,0 +1,14 @@
+{
+  "config_sha256": "83ec67d6f1e766513b5ee820f7394c882f27143fc93a5312620249e382538edb",
+  "events": 100,
+  "median_of_event_medians_ns": 1083,
+  "p95_of_event_medians_ns": 1125,
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "protocol_sha256": "a21f9b83082ed1c6365018dd5ad6579ee9e92d2192d630ab5570c4e1562c7ef7",
+  "python": "3.12.12",
+  "repeats_per_event": 1000,
+  "schema": "ieee-operational-lookup-v1",
+  "scope": "precomputed Boolean edge-signature lookup only; excludes offline pool generation, portfolio composition, loading, and dispatch",
+  "script_sha256": "9ee5e2e1798724acdba63e24eac249b67b1b1aec5426a77cc98a15d7342e04ec",
+  "source_sha256s_sha256": "362de8e7ec2290c8b08914a84b83470e63784ddce0b9056d095f95da2db5dff5"
+}

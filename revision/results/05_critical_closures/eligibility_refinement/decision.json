@@ -1,0 +1,13 @@
+{
+  "events": 400,
+  "interpretation": "The E7 immediate-failure boundary is dominated by search supply and frozen objective-eligibility filtering, not demonstrated failure of the ECHO composer.",
+  "primary_finding": "No E7 event was an ECHO selection miss: every event supported by the frozen eligible pool was retained by ECHO.",
+  "schema": "echo-E7-pool-support-causal-refinement-v1",
+  "status": "post-hoc diagnostic; not a new confirmatory test",
+  "totals": {
+    "echo_selection_miss": 0,
+    "echo_success": 10,
+    "eligibility_filter_miss": 22,
+    "search_supply_miss": 368
+  }
+}

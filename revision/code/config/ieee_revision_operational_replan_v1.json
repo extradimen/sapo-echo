@@ -1,0 +1,14 @@
+{
+  "schema": "ieee-revision-operational-replan-v1",
+  "map": "data/movingai_mapf/maps/random-32-32-20.map",
+  "scenario": "data/movingai_mapf/scenarios/scen-even/random-32-32-20-even-1.scen",
+  "task_pairs_zero_based": [[1, 4], [1, 19], [3, 4], [3, 5], [3, 8]],
+  "preference_levels": 21,
+  "fixed_output_size": 3,
+  "quality_core_fraction": 0.7,
+  "events_per_pair_uniform": 10,
+  "events_per_pair_high_exposure": 10,
+  "event_seed": 20261028,
+  "mocbs_time_limit_seconds_per_event": 10,
+  "classification": "post-review operational comparator; no robust-planner dominance claim"
+}

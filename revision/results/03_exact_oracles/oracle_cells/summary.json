@@ -1,0 +1,8 @@
+{
+  "claim_boundary": "Fixed-core residual and unconstrained fixed-K oracles solve different problems; only the former is the theorem's comparator.",
+  "fixed_core_cells": 12,
+  "global_oracle_cells": 11,
+  "minimum_greedy_fixed_core_ratio": 1.0,
+  "minimum_greedy_global_ratio": 1.0,
+  "schema": "ieee-revision-corrected-oracle-summary-v1"
+}

@@ -1,0 +1,733 @@
+{
+  "interpretation": "post-hoc causal diagnostic; no new optimizer run",
+  "protocol": "research_archive/plans/2026-09-05_echo_E7_pool-support_audit_protocol_v1.md",
+  "protocol_sha256": "2007589d9417f58042d8b55e9c27714e118cf7f1be39fc044402cb48ea19fd1a",
+  "schema": "echo-E7-pool-support-audit-v2",
+  "script": "analyze_echo_E7_pool_support.py",
+  "script_sha256": "5f0b1f6f43531a24a163fd89e4301e4fdb851d85b179fb141706958ae9d5fc83",
+  "sealed_e7": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2",
+  "sealed_e7_sha256s_sha256": "3f27fa89631267f2a3322a9394d465496778f89a754b18c10fb5a9f0c1641081",
+  "selector_analysis": "research_archive/analyses/2026-09-04_echo-final-multifamily_selector-confirmation_v1",
+  "sources": [
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/maze32b_seed1401.json",
+      "e7_unit_sha256": "ed4bf3c0eb7644a480116dd00765ae3a5984b901cb85b4198df5145a72edb8b7",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "ca2f75363171fc208600373000a525201ba4f67365f76ca253deec326cadf2ac",
+        "echo": "ca2f75363171fc208600373000a525201ba4f67365f76ca253deec326cadf2ac",
+        "edge_jaccard": "ca2f75363171fc208600373000a525201ba4f67365f76ca253deec326cadf2ac",
+        "kmedoids_edge": "ca2f75363171fc208600373000a525201ba4f67365f76ca253deec326cadf2ac",
+        "minimum_common_edge": "ca2f75363171fc208600373000a525201ba4f67365f76ca253deec326cadf2ac",
+        "objective_only": "ca2f75363171fc208600373000a525201ba4f67365f76ca253deec326cadf2ac",
+        "xu2025_official_edge": "ca2f75363171fc208600373000a525201ba4f67365f76ca253deec326cadf2ac",
+        "xu2025_paper_vertex": "ca2f75363171fc208600373000a525201ba4f67365f76ca253deec326cadf2ac"
+      },
+      "scenario": "maze32b",
+      "seed": 1401,
+      "source_experiment": "2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1401/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/maze32b_seed1402.json",
+      "e7_unit_sha256": "65ff47ce10d2ac80aaeb839408b23ede75c1c44eded4e11e5deff7aa366d9335",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "b3d4e17e7c5b6b160fb812b0ce17e340e035694bbfbb38d05a81435b39ce90dd",
+        "echo": "b3d4e17e7c5b6b160fb812b0ce17e340e035694bbfbb38d05a81435b39ce90dd",
+        "edge_jaccard": "b3d4e17e7c5b6b160fb812b0ce17e340e035694bbfbb38d05a81435b39ce90dd",
+        "kmedoids_edge": "b3d4e17e7c5b6b160fb812b0ce17e340e035694bbfbb38d05a81435b39ce90dd",
+        "minimum_common_edge": "b3d4e17e7c5b6b160fb812b0ce17e340e035694bbfbb38d05a81435b39ce90dd",
+        "objective_only": "b3d4e17e7c5b6b160fb812b0ce17e340e035694bbfbb38d05a81435b39ce90dd",
+        "xu2025_official_edge": "b3d4e17e7c5b6b160fb812b0ce17e340e035694bbfbb38d05a81435b39ce90dd",
+        "xu2025_paper_vertex": "b3d4e17e7c5b6b160fb812b0ce17e340e035694bbfbb38d05a81435b39ce90dd"
+      },
+      "scenario": "maze32b",
+      "seed": 1402,
+      "source_experiment": "2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1402/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/maze32b_seed1403.json",
+      "e7_unit_sha256": "5bf0bdd3ed7d1a4b3f02cf659910482f39169b9183a402b4da9360ee2a439869",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "d1561d2ef5ba763eb49e1e2d27f346b07c87483550d24c14cdd5c20aa3b729d4",
+        "echo": "d1561d2ef5ba763eb49e1e2d27f346b07c87483550d24c14cdd5c20aa3b729d4",
+        "edge_jaccard": "d1561d2ef5ba763eb49e1e2d27f346b07c87483550d24c14cdd5c20aa3b729d4",
+        "kmedoids_edge": "d1561d2ef5ba763eb49e1e2d27f346b07c87483550d24c14cdd5c20aa3b729d4",
+        "minimum_common_edge": "d1561d2ef5ba763eb49e1e2d27f346b07c87483550d24c14cdd5c20aa3b729d4",
+        "objective_only": "d1561d2ef5ba763eb49e1e2d27f346b07c87483550d24c14cdd5c20aa3b729d4",
+        "xu2025_official_edge": "d1561d2ef5ba763eb49e1e2d27f346b07c87483550d24c14cdd5c20aa3b729d4",
+        "xu2025_paper_vertex": "d1561d2ef5ba763eb49e1e2d27f346b07c87483550d24c14cdd5c20aa3b729d4"
+      },
+      "scenario": "maze32b",
+      "seed": 1403,
+      "source_experiment": "2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1403/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/maze32b_seed1404.json",
+      "e7_unit_sha256": "b4b1dbffbcc921d4d46a73c9913629f76ab24e93c1a7120db18b9f724c5315ae",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "16f06cd8ed8ebf71a5826d4cf66769a40b896ba17da30fffd33704e7506d0627",
+        "echo": "16f06cd8ed8ebf71a5826d4cf66769a40b896ba17da30fffd33704e7506d0627",
+        "edge_jaccard": "16f06cd8ed8ebf71a5826d4cf66769a40b896ba17da30fffd33704e7506d0627",
+        "kmedoids_edge": "16f06cd8ed8ebf71a5826d4cf66769a40b896ba17da30fffd33704e7506d0627",
+        "minimum_common_edge": "16f06cd8ed8ebf71a5826d4cf66769a40b896ba17da30fffd33704e7506d0627",
+        "objective_only": "16f06cd8ed8ebf71a5826d4cf66769a40b896ba17da30fffd33704e7506d0627",
+        "xu2025_official_edge": "16f06cd8ed8ebf71a5826d4cf66769a40b896ba17da30fffd33704e7506d0627",
+        "xu2025_paper_vertex": "16f06cd8ed8ebf71a5826d4cf66769a40b896ba17da30fffd33704e7506d0627"
+      },
+      "scenario": "maze32b",
+      "seed": 1404,
+      "source_experiment": "2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1404/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/maze32b_seed1405.json",
+      "e7_unit_sha256": "f31bb00d3b93aed561881364d0065ab74d95a6c6bca0f4a3b3c436942ae76f64",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "6c7311a2c40e8ed3a5d07f72b33a35320c693ecb8a1beeef7cb02f0504af5f47",
+        "echo": "6c7311a2c40e8ed3a5d07f72b33a35320c693ecb8a1beeef7cb02f0504af5f47",
+        "edge_jaccard": "6c7311a2c40e8ed3a5d07f72b33a35320c693ecb8a1beeef7cb02f0504af5f47",
+        "kmedoids_edge": "6c7311a2c40e8ed3a5d07f72b33a35320c693ecb8a1beeef7cb02f0504af5f47",
+        "minimum_common_edge": "6c7311a2c40e8ed3a5d07f72b33a35320c693ecb8a1beeef7cb02f0504af5f47",
+        "objective_only": "6c7311a2c40e8ed3a5d07f72b33a35320c693ecb8a1beeef7cb02f0504af5f47",
+        "xu2025_official_edge": "6c7311a2c40e8ed3a5d07f72b33a35320c693ecb8a1beeef7cb02f0504af5f47",
+        "xu2025_paper_vertex": "6c7311a2c40e8ed3a5d07f72b33a35320c693ecb8a1beeef7cb02f0504af5f47"
+      },
+      "scenario": "maze32b",
+      "seed": 1405,
+      "source_experiment": "2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1405/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/maze32b_seed1406.json",
+      "e7_unit_sha256": "bc5cb99863873010fca393df58fc8ff62de5e265facc835cf4c22a1339e61df9",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "a781cf2720daedf684f1eeb9ef662b79e42d6dd4ab381edfa8ddddf3afd52615",
+        "echo": "a781cf2720daedf684f1eeb9ef662b79e42d6dd4ab381edfa8ddddf3afd52615",
+        "edge_jaccard": "a781cf2720daedf684f1eeb9ef662b79e42d6dd4ab381edfa8ddddf3afd52615",
+        "kmedoids_edge": "a781cf2720daedf684f1eeb9ef662b79e42d6dd4ab381edfa8ddddf3afd52615",
+        "minimum_common_edge": "a781cf2720daedf684f1eeb9ef662b79e42d6dd4ab381edfa8ddddf3afd52615",
+        "objective_only": "a781cf2720daedf684f1eeb9ef662b79e42d6dd4ab381edfa8ddddf3afd52615",
+        "xu2025_official_edge": "a781cf2720daedf684f1eeb9ef662b79e42d6dd4ab381edfa8ddddf3afd52615",
+        "xu2025_paper_vertex": "a781cf2720daedf684f1eeb9ef662b79e42d6dd4ab381edfa8ddddf3afd52615"
+      },
+      "scenario": "maze32b",
+      "seed": 1406,
+      "source_experiment": "2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1406/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/maze32b_seed1407.json",
+      "e7_unit_sha256": "b6f1a04f4d0e3bd5cc124ccda2fd792e7637518cfe2b42f96dff0a0b0d4367bf",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "d2efb021d9b01d63ca88146d7b6d3a39f1bb6a3ff3194d8547a53017d80e7572",
+        "echo": "d2efb021d9b01d63ca88146d7b6d3a39f1bb6a3ff3194d8547a53017d80e7572",
+        "edge_jaccard": "d2efb021d9b01d63ca88146d7b6d3a39f1bb6a3ff3194d8547a53017d80e7572",
+        "kmedoids_edge": "d2efb021d9b01d63ca88146d7b6d3a39f1bb6a3ff3194d8547a53017d80e7572",
+        "minimum_common_edge": "d2efb021d9b01d63ca88146d7b6d3a39f1bb6a3ff3194d8547a53017d80e7572",
+        "objective_only": "d2efb021d9b01d63ca88146d7b6d3a39f1bb6a3ff3194d8547a53017d80e7572",
+        "xu2025_official_edge": "d2efb021d9b01d63ca88146d7b6d3a39f1bb6a3ff3194d8547a53017d80e7572",
+        "xu2025_paper_vertex": "d2efb021d9b01d63ca88146d7b6d3a39f1bb6a3ff3194d8547a53017d80e7572"
+      },
+      "scenario": "maze32b",
+      "seed": 1407,
+      "source_experiment": "2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1407/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/maze32b_seed1408.json",
+      "e7_unit_sha256": "08cba9391f36edf9be5f60b5daf832be9daa9f1f643b3c2390e1658884fab583",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "56b583668c41c1bf387c70c99615646eeea4a8346d1f6e9b59b100102c114cfa",
+        "echo": "56b583668c41c1bf387c70c99615646eeea4a8346d1f6e9b59b100102c114cfa",
+        "edge_jaccard": "56b583668c41c1bf387c70c99615646eeea4a8346d1f6e9b59b100102c114cfa",
+        "kmedoids_edge": "56b583668c41c1bf387c70c99615646eeea4a8346d1f6e9b59b100102c114cfa",
+        "minimum_common_edge": "56b583668c41c1bf387c70c99615646eeea4a8346d1f6e9b59b100102c114cfa",
+        "objective_only": "56b583668c41c1bf387c70c99615646eeea4a8346d1f6e9b59b100102c114cfa",
+        "xu2025_official_edge": "56b583668c41c1bf387c70c99615646eeea4a8346d1f6e9b59b100102c114cfa",
+        "xu2025_paper_vertex": "56b583668c41c1bf387c70c99615646eeea4a8346d1f6e9b59b100102c114cfa"
+      },
+      "scenario": "maze32b",
+      "seed": 1408,
+      "source_experiment": "2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1408/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/maze32b_seed1409.json",
+      "e7_unit_sha256": "173216ac1cc4b200b1700e707384ab1b1ce351ee724f7ce75b217be3bbdb30fb",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "1b62dc26176c18782ad234798333aa35c6544254a33496ce9e70f304e540fcd8",
+        "echo": "1b62dc26176c18782ad234798333aa35c6544254a33496ce9e70f304e540fcd8",
+        "edge_jaccard": "1b62dc26176c18782ad234798333aa35c6544254a33496ce9e70f304e540fcd8",
+        "kmedoids_edge": "1b62dc26176c18782ad234798333aa35c6544254a33496ce9e70f304e540fcd8",
+        "minimum_common_edge": "1b62dc26176c18782ad234798333aa35c6544254a33496ce9e70f304e540fcd8",
+        "objective_only": "1b62dc26176c18782ad234798333aa35c6544254a33496ce9e70f304e540fcd8",
+        "xu2025_official_edge": "1b62dc26176c18782ad234798333aa35c6544254a33496ce9e70f304e540fcd8",
+        "xu2025_paper_vertex": "1b62dc26176c18782ad234798333aa35c6544254a33496ce9e70f304e540fcd8"
+      },
+      "scenario": "maze32b",
+      "seed": 1409,
+      "source_experiment": "2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1409/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/maze32b_seed1410.json",
+      "e7_unit_sha256": "66ee28d8b3ea4042b51984323eab1ec5123d3cf7b082cd8600374ebe7ae15cc9",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "5b1ed0d59deb1f6efd12b31e483a9a07343c0ebfbb145ad4267156fb6dde5e37",
+        "echo": "5b1ed0d59deb1f6efd12b31e483a9a07343c0ebfbb145ad4267156fb6dde5e37",
+        "edge_jaccard": "5b1ed0d59deb1f6efd12b31e483a9a07343c0ebfbb145ad4267156fb6dde5e37",
+        "kmedoids_edge": "5b1ed0d59deb1f6efd12b31e483a9a07343c0ebfbb145ad4267156fb6dde5e37",
+        "minimum_common_edge": "5b1ed0d59deb1f6efd12b31e483a9a07343c0ebfbb145ad4267156fb6dde5e37",
+        "objective_only": "5b1ed0d59deb1f6efd12b31e483a9a07343c0ebfbb145ad4267156fb6dde5e37",
+        "xu2025_official_edge": "5b1ed0d59deb1f6efd12b31e483a9a07343c0ebfbb145ad4267156fb6dde5e37",
+        "xu2025_paper_vertex": "5b1ed0d59deb1f6efd12b31e483a9a07343c0ebfbb145ad4267156fb6dde5e37"
+      },
+      "scenario": "maze32b",
+      "seed": 1410,
+      "source_experiment": "2026-09-04_echo-final-multifamily_maze32b_even14_seed1401-1410_chunk_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1410/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/random32_seed1401.json",
+      "e7_unit_sha256": "ec9d90a53030d2d0014f82ddf3e87f92371949d77f66592ac6ed8338fd91edc4",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "a5c745975914ba890b984e91ae673be0e29c41ed0c5c56f46a2df795ba09e098",
+        "echo": "0231f41ac2e334d2202f70e04a5338f0f8929a04147e448c14b13cfbe992685b",
+        "edge_jaccard": "0aca54cc97659df054abcb39278ce0d5cbcec43382102995a0ac2405c6eb6838",
+        "kmedoids_edge": "0aca54cc97659df054abcb39278ce0d5cbcec43382102995a0ac2405c6eb6838",
+        "minimum_common_edge": "431bdeedf299fcf4c368263d7795caf3b9892b20744c50562bb428dc4c5045ba",
+        "objective_only": "e974fca18770873df4b45046f20483f8eb5d03f4be79d1c9d51a6a84e49658f9",
+        "xu2025_official_edge": "1d1f8257b4d7905436cb207cb9d1c91ed8e8852712e1032a9270ca51622a8c57",
+        "xu2025_paper_vertex": "c440824a4049078e8f7e3546f03e3f73994b19f3bac1e9c372cc37d4327f71ab"
+      },
+      "scenario": "random32",
+      "seed": 1401,
+      "source_experiment": "2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1401/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/random32_seed1402.json",
+      "e7_unit_sha256": "cdbda8c7743d56f28fd49dc3118f7c9208879edf25f948fba1bef25a3558bdde",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "6f370fa0604616283f272288a92d3168c5e57ebbee69826300df84550676464b",
+        "echo": "4a9704198b82d5be37e4374182eb39c8c5f30c4f48774e3fccfdac171fc5400f",
+        "edge_jaccard": "49e9e06ac52709fb0441420196d39df85e0c8c7cfb87d19b813e6129b0ce98c9",
+        "kmedoids_edge": "669f15687c69428e6b9ab088a36d7d3386b22cb338751816eea0b02c56f84c2d",
+        "minimum_common_edge": "93adac37891660278579cca087779600affe623590143d4a0bf123079c226924",
+        "objective_only": "4633a9945ba951cc2d51fa7978fcabb1100d655a956493ee1a707e69e8b85c21",
+        "xu2025_official_edge": "a4729e61f0102243021c9f915f954911abcb9bbb564f3b4ab2f52f4cafdae896",
+        "xu2025_paper_vertex": "43a5b9d2c2d81544c100eded6119be0aefa58ac3bde8c99bc5d1b01b0f60d0f7"
+      },
+      "scenario": "random32",
+      "seed": 1402,
+      "source_experiment": "2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1402/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/random32_seed1403.json",
+      "e7_unit_sha256": "24e5b573848471d0575496cc883c03245300519beb574aacc019346ca0060643",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "cd973a80cc4a6f86307901836e1a1696178d25d08ab2412d4a6330efc1bcb649",
+        "echo": "b99c173a4a6668f9512f27b489d24dda8863e1b1c8912581490655b7a26e9c41",
+        "edge_jaccard": "cd973a80cc4a6f86307901836e1a1696178d25d08ab2412d4a6330efc1bcb649",
+        "kmedoids_edge": "cd973a80cc4a6f86307901836e1a1696178d25d08ab2412d4a6330efc1bcb649",
+        "minimum_common_edge": "cd973a80cc4a6f86307901836e1a1696178d25d08ab2412d4a6330efc1bcb649",
+        "objective_only": "a40ae4d45253a4677655ffe0252c1712401f17eaec346628b8dbaed262255214",
+        "xu2025_official_edge": "1ea12d8c9735837ccdc3f2a91c81d8f30c21a08af4f020298175cfe225159166",
+        "xu2025_paper_vertex": "f6c01463cfa55ece4775ae9a4d14f3a0e2f98d4db1c1f48436c0066e0801797e"
+      },
+      "scenario": "random32",
+      "seed": 1403,
+      "source_experiment": "2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1403/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/random32_seed1404.json",
+      "e7_unit_sha256": "fbbb0d9f3da5caae58f62baca981f5e40d99123e3a1acd939377f8e7242e3ba7",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "8c4420f9072edadd3f9285f06c0c722a13b34b14942cf563121eae28d101bfee",
+        "echo": "793a2824451d49e7b6f5a13505bb6f45cd4a48af49f0cfe72d65d79fc05b9a99",
+        "edge_jaccard": "f78f769b88c8d597bff320a8e711de9f737e1817c7cf171a6a5116b00628843d",
+        "kmedoids_edge": "e750ae1d5cfed04952168b28930fd36805d88285088385b946d3eb20fe29842e",
+        "minimum_common_edge": "8c4420f9072edadd3f9285f06c0c722a13b34b14942cf563121eae28d101bfee",
+        "objective_only": "899c3eee95fd1d3b7ff78a9ae95e3a72f60bf191e0a795670cd426e92158e3c3",
+        "xu2025_official_edge": "1a6fabc7e466eee2a3b801506b05090afd5cfbc5a011d619739ad98c00325b2a",
+        "xu2025_paper_vertex": "76e3ef7b7071c61c3ba6331fb588196cddd6a11403ebaad9ff509c30b00866ef"
+      },
+      "scenario": "random32",
+      "seed": 1404,
+      "source_experiment": "2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1404/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/random32_seed1405.json",
+      "e7_unit_sha256": "c825528a7b1bb88f9b93493a01b65a2a4693edf071e14ab3425d1dde9ce815e1",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "2185a7fd8a717f521c37d4d192835a11bef3abd2426614d2f17fb37ca0c916ec",
+        "echo": "c595b195ffd666310ac728282c43d96f4946e2949ffcb2d9b03b9b5a4ca41138",
+        "edge_jaccard": "dc9166fa422d9edd2babb1b287c1e099464a7249111cc538b60a4c73bf19499d",
+        "kmedoids_edge": "dc9166fa422d9edd2babb1b287c1e099464a7249111cc538b60a4c73bf19499d",
+        "minimum_common_edge": "2185a7fd8a717f521c37d4d192835a11bef3abd2426614d2f17fb37ca0c916ec",
+        "objective_only": "561269fcd148abab6be62785fdb363b80943da001114e2365143e67cb76b5458",
+        "xu2025_official_edge": "392f06a675e56b765e88e32a3017ace6b92a18461f7fa91ed96bf85a293624df",
+        "xu2025_paper_vertex": "d0f5985b71448481f82e2f1fb524e2e1696515e6f149f0234d997010ae45a735"
+      },
+      "scenario": "random32",
+      "seed": 1405,
+      "source_experiment": "2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1405/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/random32_seed1406.json",
+      "e7_unit_sha256": "f75766eb7dc111814507b3c79eb820a08404c66409d7f52326cdc0168ea47755",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "158c99f225b2ab10b0904fffd0fc7d0f0773af8b5191ae0338b16417fbec107f",
+        "echo": "98102e65a6caa58beae550acf717924ab55c57485e7d10d5a3e886a19fbce160",
+        "edge_jaccard": "af60d3a68945260200edc6dfdefab6d227a55b5fad510bfa75bd66d0c4e6a214",
+        "kmedoids_edge": "36122aa41a9bc5fdbb8f5d591f65596c1d104eeb58618aef1ff0b2144ec75405",
+        "minimum_common_edge": "1fe1003a00a24f83a539cb0f0bd0912fdfa908d3dede665bc8eafca2347c92be",
+        "objective_only": "7408c5291fc5b7d440c660b9f60fba6f7c6e5318799312870f2b70c3c5ef09a5",
+        "xu2025_official_edge": "cd581537b02f42b6280f1554cdfb47f38e9fbcdb2f99eb1b27ee50058eb3a219",
+        "xu2025_paper_vertex": "2ba2346c4bfcbdb246160ba0545eb2b5944a17d2d8792651c42260320db868b4"
+      },
+      "scenario": "random32",
+      "seed": 1406,
+      "source_experiment": "2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1406/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/random32_seed1407.json",
+      "e7_unit_sha256": "25b0665c3d30cb4113207507ed25d8ca75c9f4805f8aa30f56c68e644608b861",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "141682d1dfbdfafa8eaea304cb079740c6a7ce62e24b9d1472a98bf81018381c",
+        "echo": "ab9786fe955aa1dc19013a1b467013a183be446e234fd6bde9c4e13e93735199",
+        "edge_jaccard": "a35775410a15ac26a6656b5d9a16ef55430bc5205912ff478b21a3c57879c0a2",
+        "kmedoids_edge": "42c0d7ce3cd85e1c3a8ab95c4193aec0ddc76a7444b9c9014b8191cb07159b2c",
+        "minimum_common_edge": "42c0d7ce3cd85e1c3a8ab95c4193aec0ddc76a7444b9c9014b8191cb07159b2c",
+        "objective_only": "56ca687e61875dd38b6b66b063a4a2e9bc26e218c01300d093e9b2acbb3686ae",
+        "xu2025_official_edge": "cf9aa16babd2afb05d1ce22252a6814eb97c6ba51912aa4f81d38208f3b5424e",
+        "xu2025_paper_vertex": "1b12602a957ef4b232775cf9fdd73a4929d8527223cdf07dc7a0f0ed0c030895"
+      },
+      "scenario": "random32",
+      "seed": 1407,
+      "source_experiment": "2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1407/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/random32_seed1408.json",
+      "e7_unit_sha256": "ca9aa15f6d58eb95ea3731d5d457c2b9d987aac38c455990416b9109d29aed7a",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "3b262e1ae18b6aff415c1a63b3b273b6a7378a488f40c78c4ad9eba8a0007a26",
+        "echo": "ff26ae38bc95fe9ecdff0abe686760001b43279f78edd1f7a4e3cdf17e481e0a",
+        "edge_jaccard": "159a33ed50667a2ff68afb7edae47821139b345c86bfd402513fcc3f52bcd01d",
+        "kmedoids_edge": "159a33ed50667a2ff68afb7edae47821139b345c86bfd402513fcc3f52bcd01d",
+        "minimum_common_edge": "159a33ed50667a2ff68afb7edae47821139b345c86bfd402513fcc3f52bcd01d",
+        "objective_only": "c7e6f07c68862730e7cbc98e32856f93137ea42e776f455a05d8741d300991be",
+        "xu2025_official_edge": "225bd84d0f0439d722f2ff478d0873a3052eeed20d334bb728312a5ce1deb431",
+        "xu2025_paper_vertex": "33d001e6d587c81a1ec06e4cc5b067f1fe9b318a4007677344eee843ce8164d2"
+      },
+      "scenario": "random32",
+      "seed": 1408,
+      "source_experiment": "2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1408/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/random32_seed1409.json",
+      "e7_unit_sha256": "56f7ac376c9f80f81b72690f0324ad2e3c32ae1d9b5c8a24a667d8e63e453946",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "35adba3e2fee612c91e6de8ab01cd5391416c3ec9d0f62cb33cb4fda173712d0",
+        "echo": "4b859680c5972479c6d4c0a384a2f9c49ab77c8e3bce854fe47fc1ff0cb555fb",
+        "edge_jaccard": "ddc9716553dc2bad72c741fc47fdcd3a1738a715c6161e6fa271441b46218436",
+        "kmedoids_edge": "ddc9716553dc2bad72c741fc47fdcd3a1738a715c6161e6fa271441b46218436",
+        "minimum_common_edge": "ddc9716553dc2bad72c741fc47fdcd3a1738a715c6161e6fa271441b46218436",
+        "objective_only": "a86633ea91a5657c2c861e266be1dfc593f97b0f310c0503f509688841da9e83",
+        "xu2025_official_edge": "72a93abb83728871f8ca0f251e559b17ca303f8bad8f455d43ba4c143e4070e2",
+        "xu2025_paper_vertex": "b73f95e7a20c499e59be5b937a882401151b01d1d118200b7c63bf9a34adf922"
+      },
+      "scenario": "random32",
+      "seed": 1409,
+      "source_experiment": "2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1409/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/random32_seed1410.json",
+      "e7_unit_sha256": "ac6c9bb280a1d1d106f953d071e765d238078db34a5cffbe94fdf5c402481a71",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "22ffb18a950eadd42655fcf692eef2e938f1b32cd5df8845c68de8627099f06c",
+        "echo": "d68ed3ba3ab76d897e15bc263392df8e8b6d1ca67fc51f245db299e7824b9560",
+        "edge_jaccard": "0168947397e48e5fe76a5d1a234d1bfb810ab9a4b6a5dbc80c15fff77a4cfb3b",
+        "kmedoids_edge": "54680f082548fe06450cbf3257bb66322b60ba624cd4ca1e95e6a09140ca57f4",
+        "minimum_common_edge": "0168947397e48e5fe76a5d1a234d1bfb810ab9a4b6a5dbc80c15fff77a4cfb3b",
+        "objective_only": "ca8fc74b909b4d147e625823a489a575d18b6c8f72e9afc7286084788fc4f58a",
+        "xu2025_official_edge": "e554bd466db4d1e7e2f3272946de3f50d319458c84121ed32a80917527944684",
+        "xu2025_paper_vertex": "5a8550b888a0d6f43fa99224cc48ed476c2830dfc5abfe78190e4456fd41f44c"
+      },
+      "scenario": "random32",
+      "seed": 1410,
+      "source_experiment": "2026-09-04_echo-final-multifamily_random32_even14_seed1401-1410_chunk_v2",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1410/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh10b_seed1401.json",
+      "e7_unit_sha256": "f45192b0749fc7202e1a1b166ec4b7e2a30c55acc059434777d489eefae4d1f4",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "bc6a284434bb3f0d9d5c3872057280231588b81d04ef01d08831ac4825bafb29",
+        "echo": "629a013013e608b156e706bd752aef5fc1f26f37d6ce323a36c2fc3b7757deb5",
+        "edge_jaccard": "0bc7a0bb83e2382eb786d5a4a3a99fd20427987bbdf8be225b55b4f930f4d521",
+        "kmedoids_edge": "87351b5488d7ca6c6a0acbe96b3b5bb50a25c73fc1c9b0cba6e84dd3e46d9143",
+        "minimum_common_edge": "f013141874050270f9e80748d8d37586f6eb5f975f5927ff28c89ae205a2c011",
+        "objective_only": "bdb649df5c4c2ac3166788027e2cdf577590b3651f39ad81bcd82a8c2dd702fc",
+        "xu2025_official_edge": "1c7c5240d00c80cb4aa6bb1e3492edd7e9c546d02e88f14d357e4cc582b7b6fc",
+        "xu2025_paper_vertex": "775d7fe189e027f496c87d7f13eb939cc097380b952f88034e87886fbf7a092a"
+      },
+      "scenario": "wh10b",
+      "seed": 1401,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1401/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh10b_seed1402.json",
+      "e7_unit_sha256": "9219f9401fdf546b185439026c250721801643c1058509e272c685f0069850ad",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "9611a8a629d6c500358b5e755379902ef78eaed6ffc74aedd189e66b196b8f1b",
+        "echo": "3d43a60ba9134834ee16351cb69b4092545880d48e9f7a49a1bab3b37612c5b0",
+        "edge_jaccard": "7d42a301cbdc8728d66d66612c5a14eb9ae4edc8f13b7c95af51bd3d5d4dabec",
+        "kmedoids_edge": "eaee1405c294bf6b48452fe2aa2f64248cd54216ad341a56e4e26c6e80b4a979",
+        "minimum_common_edge": "4428ff7844c9bb3f51bdc1f31841fba5f199a809c2ceac386654eeecd317a888",
+        "objective_only": "21def8b186b06ae932b89c74fa1559e8077e9bc326afef4fc7e9d8657fac81b4",
+        "xu2025_official_edge": "f35571ca1dd0ae259516cc6c29f988f0a01aaf52a69afe0a344b562a6a02d8fa",
+        "xu2025_paper_vertex": "8159c9174e9f6bf208c7467920678d84ce266b42d185d1edb02638c1852ccdbc"
+      },
+      "scenario": "wh10b",
+      "seed": 1402,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1402/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh10b_seed1403.json",
+      "e7_unit_sha256": "1b8ad001e59f25a910d621bd368bd602b254120817e51d497468ca3398b1e55c",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "9f6aac6ba27165db5cdbd9090f96c449d27e15287e91998aabc791acc223ad4e",
+        "echo": "27f510a510d8ed9ab885aca2d48171d535e8f3b987ceacca673022e3fa405a12",
+        "edge_jaccard": "c4b6121555aa21928fc14e4a29e10b16ddeef4674d40af6d61a8ba3fdd2281b3",
+        "kmedoids_edge": "73d5d29d09b78842611e561ccdcf25d39791e4903243b666c58aead0ea92aa89",
+        "minimum_common_edge": "27930261be14ef374e2afb459441c116bfcd0bd0c71618fe7cf1b419f54b58fc",
+        "objective_only": "e6a8a1ed2f4847a50cf51f15532750dea83bf2a7f51df101ca5ea66a1a610035",
+        "xu2025_official_edge": "1b8f4d32464654010599e63f2b57ad52e7677cc93e227b61edc39684ff1b31e4",
+        "xu2025_paper_vertex": "5825560076802a0a61c60f224cb89ae26e032a2f9a51add516f37ab70f254d52"
+      },
+      "scenario": "wh10b",
+      "seed": 1403,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1403/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh10b_seed1404.json",
+      "e7_unit_sha256": "1390be9b6f158b32671beffa680b753ee32eb1755690b755fecb7f9276c0c748",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "6fbb5faf5074f7720c4e4ea2343c6792a764d3be4702f5694e1f4bdb43eec0fc",
+        "echo": "27bb75f0070ba0181b6c0065fc9faae367c09b66808d3e4008cefb9db0f39b03",
+        "edge_jaccard": "dc6ba8f2e82b0bda5f29c2336a0becc90bb4d3d775ee2402b94777dd182f9f40",
+        "kmedoids_edge": "79837d12e856c91b9002c7eaf5f52a7a2da8c90395a2fa042f3b4f1486927c2f",
+        "minimum_common_edge": "cfe227d99b847f5b902e0141030bdb54a25a3db73bdf0610bf70e40946de7ecd",
+        "objective_only": "cf2b596f850a721e8923aa3973c923bd990f188989bd35943f3ed94422f670c9",
+        "xu2025_official_edge": "fc21debf26678b6b59998e1dcce08f5b198cb6f38bacdc19ac28d63fcaa610be",
+        "xu2025_paper_vertex": "5975e3ea072d5987a46395fe0df7d2bb1839648854d62ce973d5b7b4fff33217"
+      },
+      "scenario": "wh10b",
+      "seed": 1404,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1404/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh10b_seed1405.json",
+      "e7_unit_sha256": "33abb003c96edb4470c3a74e0817830cf8d7d868d5c48caf92beac8f69995145",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "8eef57ae2055d89c03265c5d8fd99fd2c7569892323ee6b5fa34499170e1b8ef",
+        "echo": "295fd15c54368c97db948d23fb9fed7863ecbddb3d3ddaf8085954fbbbecf32e",
+        "edge_jaccard": "209a937d4dd3ad92bf54dad1f4726c240ee5d3d6786c0ce298d9964bbd503bf4",
+        "kmedoids_edge": "025ed978be9514fd7adb19a45baed6b0b42b42d6cea4e8ba9be0e473b5f013a8",
+        "minimum_common_edge": "5fb0cc70a70abe2eb452ebcd45edf21bee56918053ed2b23e0f5299bddcf226c",
+        "objective_only": "127b08905b5ff097f403ad55a3afa8f32db57dd9a4ebb49a6a104f2492b700f7",
+        "xu2025_official_edge": "4aee4ca23d59f6f2697bc9ab975e96225698d7ac17d8b4b802bf689c42af4e8d",
+        "xu2025_paper_vertex": "02b984d6bdc524e02f7213a483d29fc564ea6a25cb5e0046592eda66d33e775e"
+      },
+      "scenario": "wh10b",
+      "seed": 1405,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1405/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh10b_seed1406.json",
+      "e7_unit_sha256": "04105c658f96e7634669f4dc89ad739a455f83ce085242c972e1e7c1130af7a7",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "0f601034e3a3318a517792963ed9e7c6dd7018d7460a3c7dd2484631b0c74c69",
+        "echo": "71686edeae00cf23bf413d465c82bb34cced8b68e81c491c4578a91feac89f35",
+        "edge_jaccard": "6cb1e93dc1ea32adfe3ef26cf636ded1a6d6efa5d6764a049b56d94bab8b51ce",
+        "kmedoids_edge": "4cf3eee71bdbdb6b1b6db3e13c1d3bb2fbe3251f281cbf58fe4ec3ffafb67e07",
+        "minimum_common_edge": "ab7492e0ad0bf69ec824cc07bc09d2afb31fa73d88105cf2a7fa1b9cb8cfe881",
+        "objective_only": "b4c4d0d5904117515acf12cb21b1d03e96dfbe059a3c237b7c06c56c7618843d",
+        "xu2025_official_edge": "4495e34b317362f917acb506c900131ee01b006f7b566d60702d79da49413b51",
+        "xu2025_paper_vertex": "88751e039f269229d0f913dfd8cc3010df40ff54ea53e506a2067afd8ce89719"
+      },
+      "scenario": "wh10b",
+      "seed": 1406,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1406/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh10b_seed1407.json",
+      "e7_unit_sha256": "0c8c81b47704620710ef3497349a68cab2fd2c946ca25ed9dc37148467cca236",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "fee8b503d821f97d846d46030b6911fa1c9a103129528acc1221df6bf4405788",
+        "echo": "eb4957e772697189ba5c973731e8c0a40abf78031615ddff438fbcccd2cbafbf",
+        "edge_jaccard": "632e29eb7da01845a5916db52d0d8d03ead618d33c3600aecdf419020f081e20",
+        "kmedoids_edge": "4fa2b68269aae14e44f7956d641581234ae79fffcd61eee269a6d0d8b470143d",
+        "minimum_common_edge": "9f2711c01328775ed864253e35b2d15078fb2b895f56239c945f8769285c2e97",
+        "objective_only": "0eebee935639144c47cac63b80ac85c76f83e7a4691396df03a00ecd80ee6031",
+        "xu2025_official_edge": "0422d23903f86febc48a8f45bd0a37f1713d686b4003e8425b0a89dfca9a4853",
+        "xu2025_paper_vertex": "c5bdde1265a7af5fba9e8f7e7d0c2041321abd50f68b2e8e57f2d3a1cfca3c75"
+      },
+      "scenario": "wh10b",
+      "seed": 1407,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1407/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh10b_seed1408.json",
+      "e7_unit_sha256": "c2ae4f88d1c30ed21ebc2d4157b2ca2cab4b7f1f83c53de9ab758f0b31cb9c10",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "316413bc3dd3c2a91f64016701be9b706907d77b704df8e5db0c0f492736a514",
+        "echo": "7f6d79458ab9ebbb116f0e50c10e9ae6a00c4457ebf3db5d9e6821f72a5d0260",
+        "edge_jaccard": "dab2f9946120fbd1f4e88dff639b201c263267b94f45ce52ac9fc20de0a98654",
+        "kmedoids_edge": "cab00e32b3f1ca7823ec92c26ca034c123c1ab8d522dd70db6d279b3e10e96cc",
+        "minimum_common_edge": "a846094a262ba95dbb616b99df0528b5ef167d1ecbf759d9cd6d4ecb6c03c792",
+        "objective_only": "28184759251f31e1d7d4aed11f5386282b8e672b45e6d54de9dbdc91aec8b1ee",
+        "xu2025_official_edge": "4d8c8e1e5a0bfff59dd674955c8688ce2e1605c2ef09d5168b90ebca0a7514ad",
+        "xu2025_paper_vertex": "38bda994fb81c4ca35c8ad6817ae301176dc01fc93669a434a85dcf84d2b3226"
+      },
+      "scenario": "wh10b",
+      "seed": 1408,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1408/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh10b_seed1409.json",
+      "e7_unit_sha256": "19fdfb2b4e4e04a75668222302ac4ab7e6cf4278512eac3531f43e1468ec0335",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "ede48dde6960d06c22a06b11518d058b416b23da991747c447b720f0863c9799",
+        "echo": "c7c71574d7c9925949713a0a334e9aa77ea31d56f3d687f6154bde06d6ae7831",
+        "edge_jaccard": "b92f8c29d370000ff8fa93ff1f11c105b9d4db18f39701b5a76bf4d08567268c",
+        "kmedoids_edge": "8925273e60120f4fa6ea26f54ccfcd3241a9b606dcad0196943b9453dac6459a",
+        "minimum_common_edge": "41642fa12ff4a0a532d219fb6d4287404355cfd3dadd6b111b3b6a1d64779869",
+        "objective_only": "95ef5c11ced9c5769aa33f60be33c89e302d68dc3ff6a895b97d113034ebbb03",
+        "xu2025_official_edge": "048b4fb63f9f80bdd9c9ff50fde16a1ae2df4cf2b0711fc29529152452a14abe",
+        "xu2025_paper_vertex": "ba9179f303137767925a3f2a8f47ce0344b471f52533f73527122eb85c8e2d99"
+      },
+      "scenario": "wh10b",
+      "seed": 1409,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1409/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh10b_seed1410.json",
+      "e7_unit_sha256": "b2cfc6ebcacef47ccc44bd0a5816b6fdaa83464e30a91e4d8231023b6ec0c1c8",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "b547da38800a103691bfbf747077e381922e74375f5891431a36eda0905f644b",
+        "echo": "e4ace16abb5cd1abc510c056125ee1f2e6a07ab7b4df863754f295147933139b",
+        "edge_jaccard": "41bca4bf46dac1f184707f387399cfbd199ca8108170522d4f78380bb87cdaf8",
+        "kmedoids_edge": "f0b000cd6168779ca0b3b3362a7451d91aa1528546257be816442ec89c99d82e",
+        "minimum_common_edge": "9cb3eb43ccf7524c2be4f8ff801a4f098bf59b5e81b3e2e9e5581f889f9383a5",
+        "objective_only": "3582665ed935fc1f9c884abf785b1a62a353458f7b228a03a527916efd95164f",
+        "xu2025_official_edge": "23a0db29e9fefd89fceb8e7b1b31fdedf6a74db35dc17616ddb973670cf5353e",
+        "xu2025_paper_vertex": "9bc42d68e9211f4290c004444874cd208d600b330274ad9f287a29eaf6b12c6d"
+      },
+      "scenario": "wh10b",
+      "seed": 1410,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh10b_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1410/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh20a_seed1401.json",
+      "e7_unit_sha256": "48bf08b6eefb4bc18b540013876fd339620c8c02d9f0d7ec73477745cfae58d9",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "470f1d5407913005d9fc4db418192ee7d0438a9ad0d383c70d95a220d8706fa8",
+        "echo": "57a5a6dc812b65299610a15b94b1d6b0444660f54b68a298565e1a416d4b9d68",
+        "edge_jaccard": "8a164684260155390d77ade8d9c1c04184bfdf6a0874dea2398aa640357964e3",
+        "kmedoids_edge": "0e2efcadda810b11476bccaa61dd64a8734715b5f9eda7c306514835e8a1eed7",
+        "minimum_common_edge": "470f1d5407913005d9fc4db418192ee7d0438a9ad0d383c70d95a220d8706fa8",
+        "objective_only": "631233c6cd295133ef9f232572967190352f4eabdf4f325759c2b00e4fd5780d",
+        "xu2025_official_edge": "00038dc58e62b1e8972c31836e8536f78fbc314d988b2df3c7d9f04d268da934",
+        "xu2025_paper_vertex": "00303cd126b28cbe411a303fac168dad53201743686ccc1b5c51dddf4ea9611b"
+      },
+      "scenario": "wh20a",
+      "seed": 1401,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh20a_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1401/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh20a_seed1402.json",
+      "e7_unit_sha256": "037d31a735221a2d20ac816a102e7d3fd3ec34720202ffd0301dc245abcae828",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "c351f114b4ab244545a4e99bf889f0d9cca8c35ab4f66c23e9b162e103736198",
+        "echo": "62c1b4e8a669665398a07bbc6fccdab8bcc8bf13574c4401779295aacfc6d4be",
+        "edge_jaccard": "b54558ab993c61f92491051ebb5122f2225d93f574a0e6809af7c8d9ee7841bd",
+        "kmedoids_edge": "e5800e95a89849be5d84687dac42d2aeb9dba632407bb26dcde418fac51da584",
+        "minimum_common_edge": "3293f5f264401c367707e920e74c7752cde56a483e95f119bdacd79ccd865c62",
+        "objective_only": "515ca572d73210adbb9c92a0b04ecfe71d8a799a51048379ba50b0d5789dd8fd",
+        "xu2025_official_edge": "bb68730e24438bb13b07d8b084520c1fca157722054733106d4a2ad578299c62",
+        "xu2025_paper_vertex": "8983334fe9c403c49e673ec143dc134d1d9808f8a6298bb0db4b217680b2abbb"
+      },
+      "scenario": "wh20a",
+      "seed": 1402,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh20a_even14_seed1401-1420_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1402/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh20a_seed1403.json",
+      "e7_unit_sha256": "2b7291b9663c7435f7032834c26ded291ead7355a33b7e84ffd8d380a846622e",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "3b6da6b4a6a5b10bf7bfb088f6670b5a00e2c75e8c49ec03f409c44a71934e80",
+        "echo": "7fe476c4481e32334edda20f03089a1dbca3adea217220145ca124e6f0e703eb",
+        "edge_jaccard": "b450fa40839e094e00dc36d31d750234acd1944f2269ce6d65c850605b8486a8",
+        "kmedoids_edge": "1cc2529136466e4ccb4a959701501897daca0f4b96c156b46b1ddac3412019ba",
+        "minimum_common_edge": "b9f29a8ca1a957a7ee8f1fb7491a38d3d3047a4443758556a5a5695c6796b44f",
+        "objective_only": "681e11c58b82e854c2c553931c41b9451e1ad67adb4efdee6c42716e468724ff",
+        "xu2025_official_edge": "8b25a48b5a55bf394edd3d45b03db70a9012590cf9f8817d0f7dd93da3727f50",
+        "xu2025_paper_vertex": "f738db8964f9cf26eadf7b9f9256039dd9aff676c963054775399444321b409a"
+      },
+      "scenario": "wh20a",
+      "seed": 1403,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh20a_even14_seed1403-1420_recovery_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1403/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh20a_seed1404.json",
+      "e7_unit_sha256": "328254a2fcd18f0098e27c8276a81e9a84317a406f208cfc95d93826ad09afdf",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "2e9082a85cbc4f5e3f95c984fb1f24f51e518b0234ec5a1d20e73c3769241db3",
+        "echo": "7e994cdcf81d63323bea2b7b3387e708a6c0a6a2290b97345280b8d16fcb740d",
+        "edge_jaccard": "3900729a7e16cae3dd14c115de1fda1d666d5e706548b87f890094a9dc3b94e6",
+        "kmedoids_edge": "65a873041fc11081f26d15c7b0d3fc546eef9f230140f78f2f386f1396a981af",
+        "minimum_common_edge": "9f957e77e48505c9a6a885d025b9e6b9132fdfccdcd248bc0dc93bcb6fc628c1",
+        "objective_only": "34bd2a3f47aeabd919ff9d7b4e9a1d1ea49bd4f0df45e5f66e878ca43e6f1ef1",
+        "xu2025_official_edge": "9c5d0d83b06442a3a5563c459131431132a7d7ed1bf8efe0145a5df5261ec1bb",
+        "xu2025_paper_vertex": "e9c829ed49d48bbee814ff55c3e52c08240060c988955448cd154a75a282ae15"
+      },
+      "scenario": "wh20a",
+      "seed": 1404,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh20a_even14_seed1403-1420_recovery_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1404/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh20a_seed1405.json",
+      "e7_unit_sha256": "650ef18c118552e0272e57975b941636395519dd6ce0be3cedbae1c87c141e40",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "d647d671d2b82160a9dccab20eade8cc50bdba9ced9e2f950c0717576e7bba81",
+        "echo": "55098b2bae07fee9c38147d059ec0be77ecbaefa9c8d12b54b32774c0a93fbdb",
+        "edge_jaccard": "75f8b70cfdbcaa0086ae5908972683d342c4856821811d6c787aa7b80d6250d0",
+        "kmedoids_edge": "4b3146dbc2deec5df7bc1434516f36b4cfbcf9bd75d4f17dd0f410619fe921f4",
+        "minimum_common_edge": "2abf718d9481cd721460b510fdfe809dc57404c4ae95e886f9a80f7104024665",
+        "objective_only": "7fba2383ea3fc96b091bcd118e2724438da4ae05549d4a426aa6144560cfc302",
+        "xu2025_official_edge": "1ad2edfd80cd3539316dde2cf2ffd809befc795578f459eec12442f7ee7f020a",
+        "xu2025_paper_vertex": "ffcaa48ad1b86298dfd90c3c96d6fcbd742855300365cbbe3112fb92f2cd7a54"
+      },
+      "scenario": "wh20a",
+      "seed": 1405,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh20a_even14_seed1403-1420_recovery_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1405/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh20a_seed1406.json",
+      "e7_unit_sha256": "f271a9088f22fbe287fe13b5f69f3406d9d409e91df74c11df4a90224fa9ae5e",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "46ed845b7f81075ccda11969faab6d3fa1c522b0ad20d8d572b99c737510070e",
+        "echo": "0b139027f9cd2f028887b9abec9adcb881eb996f0cae94807ac6bdf86f43efde",
+        "edge_jaccard": "ba571b9d038fd12ebafe0f4af309d85c124bed1932aede09ed7d26e95d31d3b1",
+        "kmedoids_edge": "37c0998791b03f7630e10561acc2b7cb5524bb7ca167c3e0008b5da9d510ec8f",
+        "minimum_common_edge": "46ed845b7f81075ccda11969faab6d3fa1c522b0ad20d8d572b99c737510070e",
+        "objective_only": "7f1e1cd24225070e93fe87b8d88d52f67f5458da9f02d32df1d13dd8e8a59127",
+        "xu2025_official_edge": "7c81003b002f9ff7a946a2c42f8931ac27b21a352ac7fd30191b0f5ea5d2b556",
+        "xu2025_paper_vertex": "e576fb6d5dd442bd19d63f0b8ebd5bd930e5bf42e271fc2d9e50e4995f43e5db"
+      },
+      "scenario": "wh20a",
+      "seed": 1406,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh20a_even14_seed1403-1420_recovery_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1406/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh20a_seed1407.json",
+      "e7_unit_sha256": "22b09a8c4d23432d67d154199fa2b0eddc77428a514755003775d5c53351f400",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "f4211429fea1464b3f68adbc6caf71494128d06b5ae64f719ff40848f0d20d6c",
+        "echo": "f67ef9616a978ecc5d0f7099bdd0629a6dddc8e29aad70b549a71e9be4c513f9",
+        "edge_jaccard": "dfa463d416836c1381dd7b94af062b6f6abcf982c872954596a43c7011fb1fda",
+        "kmedoids_edge": "04d54a3778e0cced49c2c9728e76e7bb9b384107e420ef2e6fb3d6b777d6cf33",
+        "minimum_common_edge": "4b404261e4a9ea28ad106f04a0abbde10d486ab3d972ef72f64990fb5cc769d9",
+        "objective_only": "f70c2276068ece4676a1806097f1155611161f3707107a1319078c87252451a5",
+        "xu2025_official_edge": "bfc1886fff106993683d008401a2729c5af96d01547e2830925e94658d055ace",
+        "xu2025_paper_vertex": "c70907f591cce504464a2c55542cfe6a48f4847d6b71eff0a231936c711096f2"
+      },
+      "scenario": "wh20a",
+      "seed": 1407,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh20a_even14_seed1403-1420_recovery_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1407/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh20a_seed1408.json",
+      "e7_unit_sha256": "b454797a70d24a8fcbc86672e386eb2d0e25cd57c56072b0f885d36c21500f0d",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "0717ad35c243aa8cb195b509bf374a2aa90227078b098fb5d3840c30bd1cac1a",
+        "echo": "72449e261ac52bfff663bfadf4919ac7d14d88d7eff480bfd7aa498cf4900eea",
+        "edge_jaccard": "55fea8a24b7bcdaf6a087d859d289ccc6ea089963523267d8feb5f707c3a391c",
+        "kmedoids_edge": "cc9f1e35a482f6f35be7683835c73a5842b4b7a424d15a5210722910b1b5844c",
+        "minimum_common_edge": "3a2d626d395535639859caa8112f704c7fed2d2ecff4d258450d0b5f0e95677c",
+        "objective_only": "4dab82d9e7e8b334e2a188d5b8d9a1b65dfae0c1812f7cb7600621b15830746d",
+        "xu2025_official_edge": "e2fdec9fbba47415e34118f4796a476fe4d542b247d537a5261dc3442321c616",
+        "xu2025_paper_vertex": "ff1bbdff7aace880dcdbf40c9fb3a809c85459284fe1e07b825d614e0e69a262"
+      },
+      "scenario": "wh20a",
+      "seed": 1408,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh20a_even14_seed1403-1420_recovery_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1408/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh20a_seed1409.json",
+      "e7_unit_sha256": "39c80602da3fa6f132e595c941290cf54c1a82639bdf660ebea05ccbb72d477f",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "92e90375f2b34ec5aee3fbc99ef5f91f05db2de245148eec833574fb9bdd22d0",
+        "echo": "5e5f78a4417096d0955ba4916d6b708f5fd74e052d9d462fa2f6a1a205fe2b2a",
+        "edge_jaccard": "a2dbde8673c7a6033320b05dcd473dca336c96069e187a43e7dce8368e3e847c",
+        "kmedoids_edge": "b56b43c230777ecbf10c5bf2cb9d25a9b9172b018737b31b3280bdcc307a8347",
+        "minimum_common_edge": "92e90375f2b34ec5aee3fbc99ef5f91f05db2de245148eec833574fb9bdd22d0",
+        "objective_only": "44940fdfa6c4b4c519cb84269400b18060a8e3e789f0d2a8d2f4d1d1e4c8734f",
+        "xu2025_official_edge": "773ab5fa9cb3a8ff895c09a0e1ac483d70c71392b28ff9926a6fd2ce5fd71d56",
+        "xu2025_paper_vertex": "aa19749444afad4bd4f14a369f15b93c092829fac259e4d75202d2583ed026a0"
+      },
+      "scenario": "wh20a",
+      "seed": 1409,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh20a_even14_seed1403-1420_recovery_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1409/trajectory/generation_000005.npz"
+    },
+    {
+      "e7_unit": "research_archive/experiments/2026-09-05_echo-equal-budget-replanning_E7_v2/units/wh20a_seed1410.json",
+      "e7_unit_sha256": "8f474594ee22bb16bc7c7538c77278e7482fc9c7fe18fad9d7f919a3f0c36b50",
+      "portfolio_sha256": {
+        "common_vertex_overlap": "23aafb313403b1bfb98ed8b611848fe5a1875ffc20cd56d741fef30fe777d70c",
+        "echo": "da46db2e0e4ff36fbc37e118afebd3ee1eb405e3980e026d6beab625d1e8d7fd",
+        "edge_jaccard": "59909e4a9715ebd104f0d58b6c2e54f71286f8d2d493811faca94b92869383f9",
+        "kmedoids_edge": "1edd53b13883276a82dd79a46be53ada097b14867314202180438e786fd1d197",
+        "minimum_common_edge": "23aafb313403b1bfb98ed8b611848fe5a1875ffc20cd56d741fef30fe777d70c",
+        "objective_only": "37e6ebef21cf0c1f79425d8913878ca97d378da5e20dba5d9ec4306c9bc69ff2",
+        "xu2025_official_edge": "4a4271a0ca9889dba3b394b4f5567dc323086a5f9ebcb964a00da68d3ad4d1ca",
+        "xu2025_paper_vertex": "89afd11ccbee338fc9ea9bcaa03380aa7b10bda66d1f1280d40e9d6e4a021918"
+      },
+      "scenario": "wh20a",
+      "seed": 1410,
+      "source_experiment": "2026-09-03_echo-final-multifamily_wh20a_even14_seed1403-1420_recovery_v1",
+      "source_snapshot": "runs/NSGA3-ObjectiveArchive_seed1410/trajectory/generation_000005.npz"
+    }
+  ]
+}

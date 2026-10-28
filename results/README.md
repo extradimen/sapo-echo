@@ -1,5 +1,10 @@
 # Results index
 
+**Historical September submission results.** The portfolio-level selector,
+revised statistics and post-review operational comparison are in
+[`../revision/`](../revision/). The earlier group-wise effects in this tree are
+retained solely for provenance and are not current manuscript claims.
+
 The numbered folders follow the order of the manuscript's Results section.
 CSV files are machine-readable evidence; JSON files record decisions,
 provenance and frozen analysis settings.

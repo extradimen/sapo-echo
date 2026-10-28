@@ -1,7 +1,9 @@
 # SAPO-ECHO
 
-Official code-and-data snapshot for **SAPO-ECHO: Failure-Semantic Portfolio
-Optimization for Resilient Multi-Agent Path Finding**.
+Code-and-data repository for **SAPO-ECHO: Failure-Semantic Portfolio
+Optimization for Resilient Multi-Agent Path Finding**. The current IEEE Access
+resubmission evidence is indexed in [`revision/`](revision/). The original
+September snapshot is retained below as historical material.
 
 SAPO separates objective quality, `F(x)`, from application semantics, `H(x)`.
 ECHO instantiates `H(x)` with undirected physical-edge closures and selects a
@@ -10,25 +12,28 @@ NSGA-III-ECHO uses ordinary single-population NSGA-III, a passive objective-only
 `2N` history, and a final `N`-plan composer with a 70% objective core. The
 archive never re-enters search.
 
-## Main result in one paragraph
+## Revised result in one paragraph
 
-On held-out warehouse candidate pools, ECHO achieved PSC-1 of 0.79512 versus
-0.78940 for edge-Jaccard selection and 0.77940 for objective-only selection.
-The paired hierarchical PSC-1 difference from edge Jaccard was 0.00572 (95%
-interval [0.00217, 0.01113]). Objective safeguards tied (empirical HV ratio
-1.0; empirical IGD 0). Benefits were near zero on several random, room and
-maze instances, so the claim is deliberately topology-qualified rather than
-universal.
+The corrected strict portfolio-level rule was replayed on 320 frozen pools.
+Its overall single-edge coverage gain over objective-only selection was
+0.00073 (95% hierarchical interval [0.00015, 0.00155]), and over edge-Jaccard
+selection was 0.00021 [0.00001, 0.00050]. The earlier larger group-wise effects
+are withdrawn. In a separate small post-review operational study, ECHO retained
+a surviving stored plan for 53 of 100 closure events, objective-only for 39,
+and a published MO-CBS planner rerun after closure found a new plan for all
+100. The five-task-pair interval for the ECHO minus objective-only rate includes
+zero. Candidate supply, map family and fleet size limit the claim.
 
 ## Repository map
 
 | Path | Purpose |
 |---|---|
+| [`revision/`](revision/) | current corrected code, data, protocols and paper-result map |
 | [`paper/`](paper/) | paper-to-figure and paper-to-evidence navigation |
-| [`results/`](results/) | processed experimental evidence in Results-section order |
-| [`protocols/`](protocols/) | frozen protocols in the same numbered order |
-| [`configs/`](configs/) | final paper configuration; one island, no migration |
-| [`src/`](src/) | SAPO-ECHO algorithm, experiment and analysis source |
+| [`results/`](results/) | historical September processed evidence |
+| [`protocols/`](protocols/) | historical September protocols |
+| [`configs/`](configs/) | original configuration; one island, no migration |
+| [`src/`](src/) | historical source snapshot; corrected selector is in `revision/code/` |
 | [`vendor/`](vendor/) | pinned in-tree pymoo dependency used by the experiments |
 | [`data/`](data/) | public benchmark provenance and exact inventory |
 | [`docs/`](docs/) | source mapping, reference audit and release policy |
@@ -42,9 +47,9 @@ private append-only workspace and this public snapshot is documented in
 
 ## Follow the paper
 
-Start with [`results/README.md`](results/README.md). Its six numbered folders
-follow the manuscript's Results subsections and link each claim to the
-corresponding figure or table. Figures 1-6 are available in
+Start with [`revision/README.md`](revision/README.md). The six older numbered
+folders in `results/` follow the original submission and are no longer the
+authority for revised numerical claims. Figures 1-6 are available in
 [`paper/figures/`](paper/figures/).
 
 ## Quick verification
@@ -57,7 +62,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python -m pip install -e vendor
 python tools/verify_release.py
-PYTHONPATH=src:vendor python -c "from echo_portfolio import SELECTORS; print(SELECTORS)"
+PYTHONPATH=revision/code:vendor python -c "from echo_revision import select_strict_coverage_portfolio; print(select_strict_coverage_portfolio.__name__)"
 ```
 
 Regenerate the inventory after an intentional release change:
@@ -68,11 +73,13 @@ python tools/refresh_manifest.py
 
 ## Data availability
 
-This repository includes the processed CSV/JSON evidence used by the paper,
-the frozen protocols, scenario inventory, figures and executable source. Large
-candidate trajectories and intermediate arrays are kept in the checksum-sealed
-local research archive and can be provided to editors and reviewers on
-reasonable request. They are not mixed into the public navigation tree.
+This repository includes the revised analysis units, closure-event records,
+statistics, frozen protocols, scenario inventory, figures and source. Large
+candidate trajectories used to generate or replay the frozen pools remain in
+the checksum-sealed local research archive and can be provided to editors and
+reviewers on reasonable request. They are not mixed into the public navigation
+tree. See [`revision/README.md`](revision/README.md) for the exact boundary of
+what the public snapshot alone can reproduce.
 
 The underlying Moving AI maps and scenarios remain with their official host;
 their source, license, archive hashes and selected-file inventory are recorded

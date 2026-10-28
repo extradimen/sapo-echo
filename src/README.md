@@ -1,6 +1,9 @@
 # Source code
 
-This directory is a frozen source snapshot for the manuscript.
+This directory is the historical September source snapshot. The corrected
+portfolio-level selector and all IEEE Access revision scripts are in
+[`../revision/code/`](../revision/code/). Do not use the older group-wise ECHO
+heuristic here to interpret the revised paper's PSC results.
 
 - `echo_portfolio.py`: identical-pool portfolio selectors, including ECHO.
 - `pnsga3_mapf_edge_coverage.py`: final one-population NSGA-III-ECHO builder

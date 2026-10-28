@@ -3,6 +3,11 @@
 This repository is a curated, frozen publication snapshot. It is not a mirror
 of the author's local experimental workspace.
 
+The October IEEE Access revision is appended under [`../revision/`](../revision/)
+with its own source map. The original September results and code remain in
+place for historical traceability and are not the corrected manuscript's
+numerical authority.
+
 ## Local experimental workspace
 
 The private working archive retains append-only run directories, dates,

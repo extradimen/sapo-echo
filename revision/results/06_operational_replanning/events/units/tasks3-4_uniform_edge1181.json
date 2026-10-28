@@ -1,0 +1,45 @@
+{
+  "closed_edge": [
+    [
+      28,
+      28
+    ],
+    [
+      28,
+      29
+    ]
+  ],
+  "echo_immediate_success": true,
+  "echo_survivors": 2,
+  "edge_index": 1181,
+  "eligible_pool_survivors": 13,
+  "event_class": "uniform",
+  "mocbs_complete_pareto": true,
+  "mocbs_expanded": 5,
+  "mocbs_low_level_expansions": 1660,
+  "mocbs_replan_objectives": [
+    [
+      77,
+      175
+    ],
+    [
+      76,
+      177
+    ],
+    [
+      73,
+      194
+    ],
+    [
+      75,
+      181
+    ]
+  ],
+  "mocbs_replan_success": true,
+  "mocbs_response_seconds": 0.017192250001244247,
+  "mocbs_search_seconds": 0.0119897,
+  "mocbs_solution_count": 4,
+  "objective_immediate_success": true,
+  "objective_survivors": 3,
+  "pair": "tasks3-4"
+}

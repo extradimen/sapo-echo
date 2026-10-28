@@ -1,0 +1,29 @@
+{
+  "events_per_unit": 10,
+  "matched_total_calls": 150,
+  "protocol": "research_archive/plans/2026-09-05_echo_equal_budget_replanning_protocol_v1.md",
+  "reactive_calls_per_event": 15,
+  "scenarios": [
+    "wh10b",
+    "wh20a",
+    "random32",
+    "maze32b"
+  ],
+  "schema": "echo-equal-budget-reactive-replanning-E7-v1",
+  "script": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/run_echo_equal_budget_replanning.py",
+  "script_sha256": "66fa311679c7bb5bde47b628b2ebd1290a06ef4ba0416a55e643cc5d412ee731",
+  "seeds": [
+    1401,
+    1402,
+    1403,
+    1404,
+    1405,
+    1406,
+    1407,
+    1408,
+    1409,
+    1410
+  ],
+  "source_analysis": "/Users/michaelwang/Documents/ChatGPT/PNSGA3/research_archive/analyses/2026-09-04_echo-final-multifamily_selector-confirmation_v1",
+  "source_analysis_checksums_sha256": "bf74859b2391f9b822f99331f2681f43d51152b6a86300c4da5284ec04fa48c9"
+}

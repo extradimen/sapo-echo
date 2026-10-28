@@ -1,0 +1,18 @@
+{
+  "bootstrap_draws": 20000,
+  "generator_handling": "mean within scenario-seed before inference",
+  "primary_replication_unit": "scenario",
+  "runtime_environment": {
+    "logical_cpu_count": "10",
+    "memory_bytes": "34359738368",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "processor": "Apple M4",
+    "runtime_scope": "archived search wall time plus corrected offline composer; excludes exhaustive failure-injection analysis"
+  },
+  "schema": "ieee-revision-portfolio-statistics-v1",
+  "script": "analyze_ieee_revision_statistics.py",
+  "script_sha256": "6ff6ad08e35d856e76b3687a2a29634a1fa15fa69cbbc89187aa8f126f576766",
+  "seed_pairing": true,
+  "source": "research_archive/analyses/2026-10-28_ieee-revision_portfolio-consistency_v1",
+  "source_checksums_sha256": "df2262f36991f5fb7733991b961db76a8342c4a1b0b9e5975c215a116538d6cc"
+}

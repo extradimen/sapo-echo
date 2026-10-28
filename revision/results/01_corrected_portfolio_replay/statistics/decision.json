@@ -1,0 +1,33 @@
+{
+  "corrected_primary_advantage_supported": true,
+  "evidence_status": "post-review revision analysis",
+  "interpretation_rule": "If false, withdraw universal corrected-PSC superiority; retain only effects whose scenario-level evidence supports them.",
+  "portfolio_psc1_vs_edge_jaccard_all": {
+    "ci95_high": 0.0004965031121667021,
+    "ci95_low": 1.1031092086762755e-05,
+    "comparator": "edge_jaccard",
+    "equal_scenario_mean_difference": 0.00021263891360112085,
+    "interval_strictly_negative": false,
+    "interval_strictly_positive": true,
+    "metric": "portfolio_psc1",
+    "paired_seed_units": 160,
+    "panel": "all",
+    "primary": "strict_coverage_psc1_psc2_tie",
+    "scenario_count": 8
+  },
+  "portfolio_psc1_vs_objective_all": {
+    "ci95_high": 0.0015521395371366077,
+    "ci95_low": 0.0001463817407967499,
+    "comparator": "objective_only",
+    "equal_scenario_mean_difference": 0.0007295267435337823,
+    "interval_strictly_negative": false,
+    "interval_strictly_positive": true,
+    "metric": "portfolio_psc1",
+    "paired_seed_units": 160,
+    "panel": "all",
+    "primary": "strict_coverage_psc1_psc2_tie",
+    "scenario_count": 8
+  },
+  "primary_selector": "strict_coverage_psc1_psc2_tie",
+  "schema": "ieee-revision-portfolio-statistics-decision-v1"
+}

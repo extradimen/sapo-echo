@@ -1,0 +1,5 @@
+scenario,events,search_supply_miss,eligibility_filter_miss,echo_selection_miss,echo_success,raw_pool_support,eligible_pool_support,objective_only_success_given_eligible_support,edge_jaccard_success_given_eligible_support,minimum_common_edge_success_given_eligible_support,kmedoids_edge_success_given_eligible_support,common_vertex_overlap_success_given_eligible_support,xu2025_paper_vertex_success_given_eligible_support,xu2025_official_edge_success_given_eligible_support,echo_success_given_eligible_support
+maze32b,100,78,22,0,0,22,0,,,,,,,,
+random32,100,100,0,0,0,0,0,,,,,,,,
+wh10b,100,100,0,0,0,0,0,,,,,,,,
+wh20a,100,90,0,0,10,10,10,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0

@@ -1,0 +1,14 @@
+\begin{table*}[!t]
+\caption{Small-Instance Response to Observed Edge Closure}\label{tab:operational}
+\centering\scriptsize
+\begin{tabularx}{\textwidth}{@{}Lrrrr@{}}
+\toprule
+\textbf{Closure stratum} & \textbf{Events} & \textbf{Pool support} & \textbf{Objective} & \textbf{ECHO / MO-CBS} \\
+\midrule
+Uniform pool-used edges & 50 & 41 & 39 & 41 / 50 \\
+Highest objective exposure & 50 & 12 & 0 & 12 / 50 \\
+All protocol events & 100 & 53 & 39 & 53 / 100 \\
+\bottomrule
+\end{tabularx}
+\par\vspace{2pt}\raggedright\scriptsize Five two-agent task pairs on one random map, $K=3$. Counts are closure events with at least one surviving eligible pool plan, selected plan, or valid MO-CBS replan, respectively. High-exposure events are deliberately targeted; strata may share an edge. MO-CBS searches after observing the same closure and is an operational comparator, not a matched portfolio selector or a dedicated robust edge-fault planner.
+\end{table*}

@@ -1,0 +1,11 @@
+pair,event_class,events,supported,objective_success,echo_success,mocbs_success,mocbs_median_seconds
+tasks1-19,high_exposure,10,0,0,0,10,0.011093041997810301
+tasks1-19,uniform,10,8,8,8,10,0.01139562499884045
+tasks1-4,high_exposure,10,0,0,0,10,0.0082089165007346
+tasks1-4,uniform,10,8,8,8,10,0.0082655834994511
+tasks3-4,high_exposure,10,2,0,2,10,0.017893959004140897
+tasks3-4,uniform,10,8,8,8,10,0.0162751254974864
+tasks3-5,high_exposure,10,0,0,0,10,0.010947187503916149
+tasks3-5,uniform,10,8,8,8,10,0.0107137915001658
+tasks3-8,high_exposure,10,10,0,10,10,0.0084134999997331
+tasks3-8,uniform,10,9,7,9,10,0.0083424164986354

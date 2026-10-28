@@ -1,0 +1,23 @@
+{
+  "evidence_status": "post-review revision analysis",
+  "fleets": [
+    18,
+    24,
+    36
+  ],
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "protocol": "research_archive/plans/2026-10-28_ieee-access-revision-experiment-protocol_v1.md",
+  "protocol_sha256": "bb5397acee0e7a45434ded9a1c5f004db537520f60600d552984f6c499f73708",
+  "scenarios": [
+    "wh20a",
+    "random32",
+    "room32",
+    "maze32b"
+  ],
+  "schema": "ieee-revision-scaling-analysis-v1",
+  "script": "analyze_ieee_revision_scaling.py",
+  "script_sha256": "a2223713c03794e40012fbfbfd41c9feceaea0de780f3297514cab04812c5dc6",
+  "seeds": [
+    1601
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "bootstrap_draws": 20000,
+  "paired_by": "problem and seed",
+  "schema": "ieee-revision-cardinality-statistics-v1",
+  "script": "analyze_ieee_revision_cardinality_statistics.py",
+  "script_sha256": "bb529700e64a9da9034e7857a5ee23aff048ac45f0ef32ebdafdcae88b910c1a",
+  "source": "research_archive/analyses/2026-10-28_ieee-revision_cardinality-matched-archive_v1",
+  "source_checksums_sha256": "934fd58aa0e26222d4224d2573619eee53e24ce12e6811e1936c738ad10503af"
+}

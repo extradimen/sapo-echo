@@ -1,0 +1,100 @@
+{
+  "cardinality_decision": {
+    "all_strict_psc2_nonnegative": true,
+    "interpretation": "Archive filling and retained-content effects are distinct.  Only paired equal-cardinality contrasts in paired_inference.csv support retained-content attribution.",
+    "schema": "ieee-revision-cardinality-statistics-decision-v1"
+  },
+  "critical_edge_summary": {
+    "e7_events": 400,
+    "e7_mean_survivor_count": 0.075,
+    "e7_success_rate": 0.025,
+    "e7b_strict_units": 305,
+    "schema": "ieee-revision-critical-edge-replay-summary-v1"
+  },
+  "disk_free_bytes_at_audit": 132348039168,
+  "integrity": {
+    "cardinality": {
+      "files_verified": 303,
+      "manifest_sha256": "934fd58aa0e26222d4224d2573619eee53e24ce12e6811e1936c738ad10503af"
+    },
+    "cardinality_statistics": {
+      "files_verified": 3,
+      "manifest_sha256": "c07e6c7de474bbf1cb619ef8a49c2d931b3fa551594fc7846dccb9833e72c122"
+    },
+    "consistency": {
+      "files_verified": 963,
+      "manifest_sha256": "df2262f36991f5fb7733991b961db76a8342c4a1b0b9e5975c215a116538d6cc"
+    },
+    "critical_edges": {
+      "files_verified": 5,
+      "manifest_sha256": "971b104283a79c763af45d1b53801aef66f715c4d04ab58115dd81734e6daea1"
+    },
+    "oracle": {
+      "files_verified": 3,
+      "manifest_sha256": "61bd941ff73b5390259ae0b887b198c4c3514e11ce154cffbf5630b3840169a5"
+    },
+    "scaling": {
+      "files_verified": 14,
+      "manifest_sha256": "7c638632d1afe4b9df74b662c1d216f97bb41b079ba53de8cfa6171f94910143"
+    },
+    "statistics": {
+      "files_verified": 6,
+      "manifest_sha256": "96b0ca86c5c6e242bb3b6fbbdf92824ed2bf58bc66d68e4a7157203962a2cbf4"
+    }
+  },
+  "manuscript": "Access-2026-44964",
+  "oracle_summary": {
+    "claim_boundary": "Fixed-core residual and unconstrained fixed-K oracles solve different problems; only the former is the theorem's comparator.",
+    "fixed_core_cells": 12,
+    "global_oracle_cells": 11,
+    "minimum_greedy_fixed_core_ratio": 1.0,
+    "minimum_greedy_global_ratio": 1.0,
+    "schema": "ieee-revision-corrected-oracle-summary-v1"
+  },
+  "primary_statistics": {
+    "corrected_primary_advantage_supported": true,
+    "evidence_status": "post-review revision analysis",
+    "interpretation_rule": "If false, withdraw universal corrected-PSC superiority; retain only effects whose scenario-level evidence supports them.",
+    "portfolio_psc1_vs_edge_jaccard_all": {
+      "ci95_high": 0.0004965031121667021,
+      "ci95_low": 1.1031092086762755e-05,
+      "comparator": "edge_jaccard",
+      "equal_scenario_mean_difference": 0.00021263891360112085,
+      "interval_strictly_negative": false,
+      "interval_strictly_positive": true,
+      "metric": "portfolio_psc1",
+      "paired_seed_units": 160,
+      "panel": "all",
+      "primary": "strict_coverage_psc1_psc2_tie",
+      "scenario_count": 8
+    },
+    "portfolio_psc1_vs_objective_all": {
+      "ci95_high": 0.0015521395371366077,
+      "ci95_low": 0.0001463817407967499,
+      "comparator": "objective_only",
+      "equal_scenario_mean_difference": 0.0007295267435337823,
+      "interval_strictly_negative": false,
+      "interval_strictly_positive": true,
+      "metric": "portfolio_psc1",
+      "paired_seed_units": 160,
+      "panel": "all",
+      "primary": "strict_coverage_psc1_psc2_tie",
+      "scenario_count": 8
+    },
+    "primary_selector": "strict_coverage_psc1_psc2_tie",
+    "schema": "ieee-revision-portfolio-statistics-decision-v1"
+  },
+  "row_counts": {
+    "cardinality_rows": 240,
+    "cardinality_units": 60,
+    "consistency_rows": 3200,
+    "consistency_units": 320,
+    "critical_e7_rows": 400,
+    "oracle_rows": 15,
+    "scaling_rows": 24,
+    "scaling_units": 12
+  },
+  "scaling_boundary": "At 18, 24, and 36 agents, all four seed-1601 map cells produced fewer than K=30 unique nondominated eligible plans under the fixed 150-evaluation budget; no duplicate padding or post-hoc multi-seed expansion was performed.",
+  "schema": "ieee-revision-final-audit-v1",
+  "status": "complete"
+}

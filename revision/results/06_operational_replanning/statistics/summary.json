@@ -1,0 +1,74 @@
+{
+  "bootstrap_unit": "task pair; paired difference; 20000 resamples",
+  "event_class_overlap": "uniform and high-exposure samples may share a physical edge; treated as separate protocol events",
+  "event_count": 100,
+  "limitation": "two agents on one random map; MO-CBS is a published online replanner here, not a dedicated edge-fault-tolerant planner",
+  "offline_echo_composer_seconds_median": 0.0008501670017722063,
+  "offline_objective_composer_seconds_median": 0.0007599579985253513,
+  "offline_pool_generation_seconds_median": 0.36940483299986226,
+  "pair_count": 5,
+  "results": [
+    {
+      "echo_minus_objective_cluster_bootstrap_95": [
+        0.0,
+        0.38
+      ],
+      "echo_minus_objective_rate": 0.13999999999999999,
+      "echo_success": 53,
+      "echo_supported_success": 53,
+      "eligible_pool_supported": 53,
+      "eligible_pool_unsupported": 47,
+      "event_class": "all",
+      "events": 100,
+      "mocbs_complete_pareto": 100,
+      "mocbs_replan_success": 100,
+      "mocbs_response_median_seconds": 0.0103689794996171,
+      "mocbs_response_p95_seconds": 0.02446575210342414,
+      "mocbs_search_median_seconds": 0.00515727,
+      "objective_success": 39,
+      "objective_supported_success": 39
+    },
+    {
+      "echo_minus_objective_cluster_bootstrap_95": [
+        0.0,
+        0.12000000000000002
+      ],
+      "echo_minus_objective_rate": 0.04,
+      "echo_success": 41,
+      "echo_supported_success": 41,
+      "eligible_pool_supported": 41,
+      "eligible_pool_unsupported": 9,
+      "event_class": "uniform",
+      "events": 50,
+      "mocbs_complete_pareto": 50,
+      "mocbs_replan_success": 50,
+      "mocbs_response_median_seconds": 0.010641937999025599,
+      "mocbs_response_p95_seconds": 0.017798945650792975,
+      "mocbs_search_median_seconds": 0.00514852,
+      "objective_success": 39,
+      "objective_supported_success": 39
+    },
+    {
+      "echo_minus_objective_cluster_bootstrap_95": [
+        0.0,
+        0.64
+      ],
+      "echo_minus_objective_rate": 0.24,
+      "echo_success": 12,
+      "echo_supported_success": 12,
+      "eligible_pool_supported": 12,
+      "eligible_pool_unsupported": 38,
+      "event_class": "high_exposure",
+      "events": 50,
+      "mocbs_complete_pareto": 50,
+      "mocbs_replan_success": 50,
+      "mocbs_response_median_seconds": 0.0101733125011378,
+      "mocbs_response_p95_seconds": 0.025472689545131214,
+      "mocbs_search_median_seconds": 0.0052080849999999995,
+      "objective_success": 0,
+      "objective_supported_success": 0
+    }
+  ],
+  "schema": "ieee-operational-replanning-summary-v1",
+  "source_sha256s_sha256": "362de8e7ec2290c8b08914a84b83470e63784ddce0b9056d095f95da2db5dff5"
+}
